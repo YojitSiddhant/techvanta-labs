@@ -1,7 +1,14 @@
+import path from "node:path";
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  allowedDevOrigins: ["*.ngrok-free.dev"],
+  turbopack: {
+    root: path.resolve(process.cwd()),
+  },
+  experimental: {
+    turbopackFileSystemCacheForDev: false,
+  },
 };
 
 export default nextConfig;

@@ -1,0 +1,324 @@
+1: Technology You Can Trust / Technology You Control
+2: TechVanta Labs delivers intelligent, scalable digital solutions designed to transform the way businesses operate and grow. We specialize in custom software development, ERP, CRM, and LMS platforms, along with modern web and mobile applications tailored to your industry needs.
+3: Our expertise extends to enterprise, government, and financial domain projects, ensuring secure, high-performance solutions built for long-term impact.
+4: We also empower businesses through strategic digital marketing, e-commerce integration, and social media enablement-helping you enhance visibility, generate quality leads, and accelerate sales.
+5: With innovation, reliability, and customer-centric delivery at our core, we provide technology that strengthens your digital presence and keeps your business future-ready.
+6: About Us (Home Page)
+7: TechVanta Labs is a fast-growing technology solutions company delivering custom software, modern websites, mobile apps, and enterprise platforms like ERP, CRM, and LMS. Based in Bhopal and serving clients across India, we help businesses enhance efficiency, strengthen their digital presence, and accelerate growth with intelligent, future-ready solutions tailored to their unique needs.
+8: About Us (Inner Page)
+9: TechVanta Labs is a dynamic and forward-thinking technology solutions company headquartered in Bhopal, proudly serving clients across India. We specialize in designing and developing custom software, mobile applications, modern websites, and enterprise-grade platforms that align seamlessly with your business objectives.
+10: Our approach is rooted in innovation, technical excellence, and client-centricity. We work closely with each organization to understand its operational challenges and strategic goals, enabling us to craft tailored digital solutions that streamline processes, enhance productivity, and elevate brand presence.
+11: With expertise spanning corporate enterprises, government domains, and financial institutions, we deliver secure, scalable, and industry-specific applications that drive measurable impact. From bespoke web and desktop solutions to advanced digital integrations, our focus remains on building technology that adapts to your business, not the other way around.
+12: At TechVanta Labs, every solution is engineered with precision, creativity, and a commitment to quality. We ensure our clients stay future-ready by providing digital experiences that improve performance today and create opportunities for tomorrow.
+13: Mission
+14: To empower businesses and public-sector organizations with intelligent, scalable, and purpose-built digital solutions that simplify complexity, enhance decision-making, and accelerate growth. We strive to transform everyday operations—whether through custom software, mobile apps, business analytics, or enterprise systems—into seamless, data-driven experiences that deliver measurable value and long-term impact.
+15: Vision
+16: To become a trusted technology partner recognized for redefining how organizations operate, engage, and evolve in a digital-first world. Our vision is to lead the industry in crafting integrated platforms—from CRM and ERP solutions to cloud and AI-driven tools—that elevate transparency, strengthen governance, and enable organizations of every scale to operate smarter, faster, and more efficiently.
+17: Values
+18: Engineering With Purpose
+19: Every solution we build is rooted in understanding the real challenges our clients face. We design technology that doesn’t just work—but works with intention, impact, and clarity.
+20: Transparency That Builds Trust
+21: Whether in workflows, communication, or data handling, we operate with complete transparency to deliver systems that enhance accountability and inspire confidence.
+22: Innovation That Stays Practical
+23: We embrace modern technologies—cloud, mobile, analytics, automation—but ensure they serve a real business function. Our innovation is thoughtful, not experimental.
+24: Security at the Core
+25: With increasing digital risk, security is embedded into every architecture, workflow, and line of code. We protect what matters most—your data, operations, and reputation.
+26: Client-Centric Always
+27: We measure success by the success of our clients. From onboarding to deployment and support, we commit to responsiveness, clarity, and long-term partnership.
+28: Quality Without Compromise
+29: Whether building an ERP for government operations or a mobile app for a growing business, we uphold rigorous quality standards to ensure reliability, performance, and scalability.
+30: Growth Through Collaboration
+31: We believe the best solutions emerge through open collaboration—within our teams, with our clients, and with the communities we serve.
+32: Our Services & Approach
+33: Why Choose Us
+34: We understand that your software systems are critical to your business. Our solutions are crafted with your growth in mind - designed to support expansion while remaining reliable, scalable, and efficient.
+35: What We Do
+36: We develop custom online software for small and growing companies, tailoring solutions to specific business requirements. In addition to development, we offer ongoing technical support to ensure smooth operation.
+37: Explore TechVanta Labs
+38: Our team consists exclusively of experienced professionals who benefit from ongoing training to stay current with the latest technologies. This ensures that every project is handled with expertise and up-to-date practices.
+39: What Makes Us Unique
+40: We possess extensive experience managing complex projects of all kinds. That means you can trust us to deliver on time and within budget - no surprises, just solid results.
+41: How We Do It
+42: Our process begins by gaining a deep understanding of your business needs. From there, we design and develop software crafted specifically for you - with clear budgeting and transparent planning.
+43: Product Spotlight
+44: Medicine Inventory Monitoring System (“MeDio”)
+45: Our Medicine Inventory Monitoring System (MeDio) streamlines inventory management for pharmacies and medicine stores, providing features such as:
+46: Efficient drug stock management - track inventory levels and stock movements with ease
+47: Seamless sale processing, including customer billing and balance tracking
+48: Handling of sales returns and generation of receipts
+49: Comprehensive sales analytics - generate daily and monthly sales reports to monitor performance
+50: With MeDio, inventory control becomes streamlined and less error-prone, enabling better business oversight and decision-making.
+51: Financial Services Lead Management System (“FinEdge”)
+52: Our Financial Services CRM System is a unified platform designed to streamline lead management across insurance and investment products. It centralizes lead capture, assignment, tracking, and follow-up to ensure fast responses, improved coordination, and higher conversion rates.
+53: Centralized lead intake with complete client & product details
+54: Automated lead assignment based on expertise and rules
+55: Full follow-up history with callbacks and status updates
+56: Dashboards and quick search for real-time visibility
+57: Secure, scalable system with reporting and audit trails
+58: This CRM system enhances operational efficiency, strengthens customer engagement, and provides a reliable foundation for managing tele-calling and lead lifecycle activities.
+59: Integrated Government ERP System (“Civica Core”)
+60: Our Integrated Government ERP System streamlines and digitizes administrative and citizen-service operations for government departments and public sector organizations. It provides a unified platform to automate workflows, enhance transparency, and improve coordination across all functional domains.
+61: Centralized management of HR, Finance, Procurement, Legal, File Tracking, RTI, and other core functions
+62: Automated workflows with role-based access, audit trails, and secure data handling
+63: Real-time dashboards and reporting for improved visibility and faster decision-making
+64: Seamless inter-departmental data exchange to reduce duplication and manual effort
+65: Scalable, modular architecture aligned with government IT standards and compliance needs
+66: This ERP system is designed to modernize governance, strengthen accountability, and deliver efficient, transparent, and technology-driven public administration.
+67: Client Commitment & Support - “What TechVanta Labs Stands For”
+68: We prioritize our clients and commit to:
+69: Quick response: We guarantee emergency support within one hour. A real person will handle your online chat or email, and we can often resolve issues remotely without waiting for an on-site technician.
+70: Business-Oriented Solutions: Every technology recommendation is grounded in a clear understanding of your company’s business benefits.
+71: Clear Communication: We avoid “geek speak.” Our technicians explain issues in plain English or Hindi, so you always know what’s happening.
+72: Satisfaction Guarantee: We aim for complete client satisfaction - no hassles, no problems.
+73: What We Provide - Services
+74: We deliver comprehensive services including software design, development, website creation, and digital marketing — all at competitive prices. We don’t just build websites; we provide full business-oriented solutions designed to generate leads and increase sales.
+75: Custom Software Development
+76: We provide bespoke software solutions - web or desktop - carefully aligned with your business goals and operational needs. Whether you are a startup or a growing enterprise, we build systems that help you manage processes efficiently and scale as you grow.
+77: Website Development
+78: We create modern, responsive websites tailored to your brand and business objectives. Our web development services emphasize usability, performance, and visual appeal - to ensure that your online presence reflects your corporate identity and engages your audience.
+79: Mobile App Development
+80: Recognizing the importance of mobility, we deliver custom mobile applications that serve your business needs - from user-facing apps to internal tools. Each app is designed with practicality, user experience, and long-term maintainability in mind.
+81: Creative & Branding Services
+82: Beyond software and apps, we offer graphic design and outdoor branding to support your brand identity across various media. Whether it’s designing promotional materials or branding physical spaces, we help you maintain a consistent and professional look.
+83: Digital Marketing
+84: We leverage online marketing strategies - including social media and e-commerce integrations - to help you expand digital reach, attract new customers, and convert leads into sales. Our marketing services are crafted to complement the technical solutions we build, creating a unified digital growth strategy.
+85: Our Expertise
+86: We bring deep domain expertise across modern digital technologies that help organizations innovate, optimize operations, and scale effectively. Our solutions are built to empower businesses with stronger insights, enhanced security, and future-ready digital capabilities.
+87: Business Intelligence
+88: We transform raw data into meaningful insights through intuitive dashboards, visual analytics, and automated reporting. Our BI solutions enable data-driven decision-making, helping businesses track performance, identify trends, and uncover new opportunities for growth.
+89: Cloud Computing
+90: We design and implement secure, scalable cloud environments tailored to your operational needs. From cloud migration and deployment to optimization and management, our cloud solutions enhance reliability, reduce infrastructure costs, and support seamless business expansion.
+91: Cyber Security
+92: We strengthen your digital ecosystem with robust security frameworks that safeguard systems, data, and applications. Our cybersecurity services include threat prevention, risk assessment, compliance support, and ongoing monitoring to ensure uninterrupted and protected business operations.
+93: Business Analytics
+94: We help organizations make smarter decisions through advanced analytics, predictive modeling, and data interpretation. Our analytics solutions offer clarity on customer behavior, operational efficiency, and market trends, empowering you to plan strategically and drive better outcomes.
+95: App Development
+96: We build high-quality mobile and web applications tailored to your business needs. Whether customer-facing or internal, our apps are designed for usability, performance, and scalability—delivering seamless digital experiences across all devices.
+97: Why TechVanta Labs / What Makes Us Stand Out
+98: Experienced & Dedicated Team
+99: Our staff are seasoned professionals who regularly update their skills to stay current with the latest technologies. This ensures every project is handled with expertise and contemporary practices.
+100: Tailored Solutions
+101: We don’t do “one-size-fits-all”; we take time to understand your business requirements, then build software tailored specifically to those needs - while keeping budgets and timelines realistic.
+102: Scalable & Reliable Delivery
+103: Having handled complex projects before, we’re equipped to deliver on time and within budget, regardless of the project’s scale.
+104: Client-Centric Support
+105: We prioritize your satisfaction: whether through timely support, clear communication (in plain English or Hindi), or remote issue resolution.
+106: Terms & Conditions - TechVanta Labs
+107: Last Updated: 27/11/2025
+108: These Terms & Conditions (“Terms & Conditions”) govern your access to and use of the website https://www.techvantalabs.com and any associated platforms, applications, products, or services operated by TechVanta Labs (“we,” “our,” or “the Company”).
+109: By accessing, browsing, or using this website or any of our services (“Service”), you acknowledge that you have read, understood, and agree to be legally bound by these Terms.
+110: If you do not agree, please discontinue use of the Service immediately.
+111: Ownership & Intellectual Property Rights
+112: All content available through the Service-including software, text, graphics, images, video, trademarks, logos, and other materials, is the exclusive property of TechVanta Labs or its licensors and is protected under applicable copyright, trademark, and intellectual property laws.
+113: You may not:
+114: Copy, reproduce, modify, distribute, or display any content without prior written permission.
+115: Remove, obscure, or alter any copyright or proprietary notices.
+116: Use any Company trademarks without authorization.
+117: Any unauthorized use of the Service or its content is strictly prohibited.
+118: Any unauthorized use of the Service or its content is strictly prohibited.
+119: Permitted Use
+120: You agree to use the Service solely for lawful and legitimate purposes.
+121: You must not:
+122: Interfere with the Service’s security features or infrastructure
+123: Attempt to gain unauthorized access to Company systems
+124: Use automated tools (bots, crawlers, scripts) to access or extract data
+125: Upload or transmit harmful or malicious code
+126: Violation of these obligations may result in immediate termination of access and potential legal action.
+127: No Offer, Solicitation, or Professional Advice
+128: The information on this website is provided for general informational purposes only.
+129: Nothing displayed here constitutes:
+130: A professional recommendation
+131: A contractual offer
+132: A solicitation to purchase any product or service
+133: All service engagements require a formal proposal, contract, or Master Service Agreement (MSA).
+134: Privacy & Data Protection
+135: Your use of the Service is also governed by our Privacy Policy, which outlines how we collect, use, store, and protect your information.
+136: By using the website, you consent to the data practices described in our Privacy Policy.
+137: Disclaimers
+138: The Service and all associated content are provided “as is” and “as available” without warranties of any kind—express or implied.
+139: TechVanta Labs does not guarantee that:
+140: The Service will be uninterrupted, secure, or error-free
+141: The content will be accurate, complete, or up to date
+142: Any defects will be corrected
+143: To the maximum extent permitted by law, we disclaim all warranties, including implied warranties of merchantability, fitness for a particular purpose, and non-infringement.
+144: Limitation of Liability
+145: To the fullest extent permitted by applicable law:
+146: TechVanta Labs shall not be liable for any direct, indirect, incidental, consequential, special, punitive, or exemplary damages arising from your use of the Service.
+147: Our total liability shall not exceed the amount you have paid to TechVanta Labs for using the Service (if any).
+148: This limitation applies whether claims arise in contract, tort, negligence, strict liability, or otherwise.
+149: Changes, Corrections & Updates
+150: TechVanta Labs may revise or update the Service, its content, or these Terms at any time without prior notice.
+151: We do not guarantee that the content is free from errors or omissions.
+152: Continued use of the Service after changes are posted constitutes acceptance of the updated Terms.
+153: Third-Party Links & External Websites
+154: The Service may contain links to third-party websites or services for your convenience.
+155: TechVanta Labs:
+156: Does not control or endorse these third-party platforms
+157: Is not responsible for the accuracy, content, or practices of external sites
+158: Shall not be liable for any damages or issues arising from third-party use
+159: Use of third-party sites is at your own risk.
+160: Termination of Access
+161: We may suspend or terminate your access to the Service at our sole discretion, without prior notice, if we believe you have violated these Terms or engaged in unlawful activity.
+162: Upon termination, your right to use the Service will cease immediately.
+163: Governing Law & Jurisdiction
+164: These Terms shall be governed by and interpreted in accordance with the laws of India, without regard to its conflict-of-law rules.
+165: Any disputes shall be subject to the exclusive jurisdiction of the courts in Bhopal, Madhya Pradesh.
+166: Entire Agreement
+167: These Terms, together with our Privacy Policy and any applicable agreements or service contracts, constitute the entire agreement between you and TechVanta Labs regarding your use of the Service.
+168: Contact Information
+169: For questions regarding these Terms, please contact:
+170: TechVanta Labs Pvt Ltd
+171: Email: info@techvantalabs.com
+172: Address: 118, Sunder Nagar, Ashoka Garden, Bhopal, 462023, (M.P.)
+173: Privacy Policy - TechVanta Labs
+174: Last Updated: 27/11/2025
+175: TechVanta Labs (“we,” “our,” or “the Company”) is committed to protecting the privacy and security of your personal information. This Privacy Policy explains how we collect, use, store, disclose, and safeguard information when you visit or interact with our website https://www.techvantalabs.com  or any associated services (“Service”).
+176: By using the Service, you consent to the data practices described in this policy.
+177: Information We Collect
+178: We may collect the following categories of information:
+179: Information Provided Directly by Users
+180: Name, email address, phone number, and organization details
+181: Information submitted through contact forms, registration forms, surveys, or service inquiries
+182: Any communication shared with us via email, chat, or other channels
+183: Automatically Collected Information
+184: We may collect:
+185: IP address, browser type, device information, and operating system
+186: Pages visited, time spent, clicks, and referring URLs
+187: Search engines or keywords used to reach our website
+188: These details help us analyze usage trends and improve service performance.
+189: Cookies & Tracking Technologies
+190: We may store cookies and similar technologies to enhance user experience, track preferences, and personalize content.
+191: Users may disable cookies in their browser settings; however, some website features may not function smoothly.
+192: Important: We do not use cookies to store sensitive personal information.
+193: How We Use Your Information
+194: TechVanta Labs may use collected data for the following purposes:
+195: To respond to inquiries, service requests, and support needs
+196: To improve website functionality, user experience, and system performance
+197: To personalize content and tailor communication
+198: For marketing, product updates, service announcements, and promotional material
+199: For statistical analysis, research, and business insights
+200: To enhance security, monitor usage, and prevent fraudulent activity
+201: We do not sell, rent, or trade your personal information with third-party marketing organizations.
+202: Communications & User Contact Rights
+203: TechVanta Labs may contact users for:
+204: Service-related updates
+205: Product announcements and new feature releases
+206: Important notifications regarding security or policy changes
+207: Users may opt out of marketing emails at any time through the unsubscribe link provided in our communications.
+208: Data Sharing & Disclosure
+209: We may share personal data only under the following circumstances:
+210: With trusted service providers who support hosting, analytics, or security activities
+211: When required by law, regulatory obligations, or legal proceedings
+212: To protect our rights, property, users, or public safety
+213: With user consent, when applicable
+214: We do not share personally identifiable information with third parties for unrelated commercial purposes.
+215: Data Security
+216: We implement industry-standard security measures to protect your information, including:
+217: Encryption of sensitive data during transmission
+218: Role-based access controls within our organization
+219: Regular system audits, security assessments, and monitoring
+220: Secure server infrastructure and compliance-oriented practices
+221: All employees handling personal information are required to maintain strict confidentiality and follow internal data protection guidelines.
+222: Despite our efforts, no digital system is completely secure. Users share information at their own risk.
+223: Data Retention
+224: We retain personal data only for as long as necessary to:
+225: Fulfill the purposes outlined in this policy
+226: Meet legal, regulatory, or contractual obligations
+227: Maintain operational and security records
+228: Once data is no longer required, it is securely deleted or anonymized.
+229: Third-Party Websites & External Links
+230: Our website may contain links to external platforms or partner websites.
+231: TechVanta Labs does not control, endorse, or take responsibility for the privacy practices or content of third-party sites.
+232: Users are encouraged to review the privacy policies of all external websites they visit.
+233: User Rights & Choices
+234: Depending on applicable laws, users may have the right to:
+235: Request access to their personal data
+236: Request correction or updates
+237: Request deletion (where legally permissible)
+238: Withdraw consent for specific data uses
+239: Restrict or object to certain processing activities
+240: To exercise these rights, contact us at: info@techvantalabs.com
+241: Changes to This Privacy Policy
+242: TechVanta Labs may update this Privacy Policy at any time.
+243: Any changes will be posted on this page with the updated date.
+244: Continued use of the Service after changes indicates acceptance of the updated policy.
+245: Contact Information
+246: For questions or concerns regarding this Privacy Policy, please contact:
+247: TechVanta Labs Pvt Ltd
+248: Email: info@techvantalabs.com
+249: Address: 118, Sunder Nagar, Ashoka Garden, Bhopal, 462023, (M.P.)
+250: Cancellation & Refund Policy – TechVanta Labs
+251: Last Updated: 27/11/2025
+252: At TechVanta Labs, we are committed to delivering high-quality IT services, consulting solutions, and technology products with professionalism and transparency. This Cancellation & Refund Policy outlines the conditions under which cancellations or refunds may be requested.
+253: By engaging with our products or services, you agree to the terms outlined below.
+254: General Cancellation Policy
+255: Cancellation requests must be submitted in writing to info@techvantalabs.com and will be reviewed by our support team.
+256: Cancellations will only be considered if requested within 24 hours of purchasing a product or service, provided that execution or project initiation has not yet begun.
+257: Once a product or service has been assigned to the execution/technical team, or the project has commenced, cancellation requests will not be accepted.
+258: Products/services purchased under special pricing, promotional campaigns, seasonal offers, corporate discounts, or limited-time deals are not eligible for cancellation.
+259: Express, urgent, or same-day technical services and consulting sessions are non-cancellable.
+260: If TechVanta Labs determines that a requested digital solution is technically unfeasible, the product may be cancelled.
+261: A partial refund may be issued after deducting analysis, consultation, or feasibility assessment fees.
+262: Refund Policy
+263: Due to the nature of software development, IT services, consulting engagements, cloud-based solutions, and digital transformation initiatives, TechVanta Labs does not offer refunds once payment is made, except as outlined in this policy.
+264: If a cancellation request is approved within the 24-hour window and work has started, payments are non-refundable, but may be credited towards future services for up to 90 days.
+265: Refunds will not be issued for the following types of products/services:
+266: Custom software or ERP/CRM development
+267: Mobile or web application development
+268: UI/UX prototyping and design work
+269: Cloud configuration, migration, or deployment
+270: Business Intelligence, dashboards, analytics reports
+271: IT consulting or technical advisory services
+272: AMC, managed IT support, or maintenance contracts
+273: Digital marketing, SEO, or social media management
+274: Configuration or setup of third-party tools or platforms
+275: Refunds will not be provided for changes in client requirements, project delays caused by the client, or shift in internal business priorities.
+276: For digital marketing and SEO services:
+277: Due to the nature of search algorithms, no ranking/traffic/sales guarantees can be provided
+278: By proceeding with the next payment cycle, the client confirms satisfaction with services delivered to date
+279: All payments for SEO/digital marketing are non-refundable
+280: Product or Service Quality Concerns
+281: If you believe the delivered product or service does not match documented requirements or agreed specifications, you must notify us within 12 hours of delivery.
+282: After evaluation, TechVanta Labs may offer:
+283: Clarifications
+284: Revisions or corrections
+285: Additional support where applicable
+286: Refunds will not be granted based on subjective dissatisfaction or changes in expectations after delivery.
+287: Third-Party Dependencies
+288: TechVanta Labs is not responsible for delays, deficiencies, or failures caused by third-party vendors such as:
+289: Hosting or cloud service providers
+290: Domain registrars
+291: External API providers
+292: Content writers or creative agencies
+293: Server infrastructure providers
+294: Third-party software tools
+295: Any coordination with third parties requested by the client will be billed at our standard consulting or support rates.
+296: Client-Initiated Project Termination
+297: If a client chooses to terminate a project midway:
+298: No refunds will be issued for completed milestones or ongoing work
+299: All completed deliverables will be provided upon settlement of outstanding invoices
+300: Additional effort up to the termination date will be billable
+301: Company-Initiated Project Termination
+302: TechVanta Labs reserves the right to suspend or terminate a product or service if:
+303: The client fails to provide required inputs or approvals
+304: There are repeated client-side delays
+305: Payment terms are violated
+306: There is misconduct, abusive communication, or ethical breach
+307: In such cases:
+308: Payments already made will not be refunded
+309: Additional charges may apply for work completed up to the termination point
+310: Chargebacks & Disputes
+311: Initiating a chargeback or payment dispute without prior discussion is considered a violation of this policy.
+312: In such cases, TechVanta Labs may:
+313: Suspend all ongoing services
+314: Withhold source code, deliverables, or documentation
+315: Initiate legal action to recover dues, including penalties
+316: Contact Information
+317: For cancellation or refund inquiries, contact:
+318: TechVanta Labs Pvt Ltd
+319: Email: info@techvantalabs.com
+320: Address: 118, Sunder Nagar, Ashoka Garden, Bhopal, 462023, (M.P.)
+321: Closing Description / Footer / End Section
+322: At TechVanta Labs, we are committed to empowering businesses with intelligent, scalable, and user-focused digital solutions. From custom software and mobile applications to modern websites and digital marketing, every solution we create is driven by a deep understanding of your business goals. Our experienced team blends technical expertise with innovative thinking to deliver reliable, future-ready systems that help you streamline operations, strengthen your brand, and accelerate growth.
+323: Backed by transparent communication, dedicated support, and a client-first approach, we stand beside you at every step of your digital transformation journey.
+324: TechVanta Labs - building technology that grows with your business.
