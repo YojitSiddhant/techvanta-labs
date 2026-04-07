@@ -34,7 +34,7 @@ export function HomeHeroSlider({ slides }: HomeHeroSliderProps) {
           className="hero-slider__backdrop"
           aria-hidden="true"
           style={{
-            backgroundImage: `linear-gradient(90deg, rgba(248, 252, 255, 0.76) 0%, rgba(233, 244, 255, 0.38) 36%, rgba(228, 240, 255, 0.58) 100%), url("${activeSlide.image}")`,
+            backgroundImage: `var(--hero-slider-overlay), url("${activeSlide.image}")`,
           }}
         />
 

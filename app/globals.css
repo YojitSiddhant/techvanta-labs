@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 :root {
+  color-scheme: light;
   --background: #f4faff;
   --foreground: #14283f;
   --panel: rgba(255, 255, 255, 0.86);
@@ -9,6 +10,7 @@
   --brand: #2f8fff;
   --brand-strong: #126bda;
   --muted: #5d7ea4;
+  --hero-slider-overlay: linear-gradient(90deg, rgba(248, 252, 255, 0.76) 0%, rgba(233, 244, 255, 0.38) 36%, rgba(228, 240, 255, 0.58) 100%);
 }
 
 @theme inline {
@@ -6478,4 +6480,212 @@ html {
 .legal-page__section,
 .legal-page__contact {
   box-shadow: inset 0 0 0 1px rgba(123, 191, 255, 0.08), 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --background: #050a12;
+    --foreground: #e8f3ff;
+    --panel: rgba(8, 13, 24, 0.94);
+    --panel-strong: rgba(12, 18, 32, 0.97);
+    --border: rgba(78, 153, 255, 0.22);
+    --muted: #c2dcff;
+    --hero-slider-overlay: linear-gradient(90deg, rgba(5, 10, 20, 0.68) 0%, rgba(8, 15, 27, 0.42) 36%, rgba(8, 15, 27, 0.58) 100%);
+  }
+
+  html {
+    background:
+      radial-gradient(circle at top left, rgba(34, 116, 220, 0.12), transparent 22%),
+      radial-gradient(circle at 84% 12%, rgba(44, 136, 219, 0.1), transparent 18%),
+      #000000;
+  }
+
+  body {
+    background:
+      linear-gradient(180deg, rgba(4, 8, 16, 0.9) 0%, rgba(0, 0, 0, 1) 28%, rgba(2, 5, 10, 1) 100%);
+    color: var(--foreground);
+  }
+
+  .site-header {
+    background:
+      linear-gradient(180deg, rgba(0, 0, 0, 0.96) 0%, rgba(2, 5, 12, 0.92) 100%) !important;
+    box-shadow: 0 14px 34px rgba(0, 0, 0, 0.2) !important;
+  }
+
+  .home-page__hero,
+  .home-page__section,
+  .home-page__cta,
+  .about-page__hero,
+  .about-page__section,
+  .about-page__commitment,
+  .services-page__hero,
+  .services-page__section,
+  .services-page__support,
+  .products-page__hero,
+  .products-page__section,
+  .products-page__commitment,
+  .expertise-page__hero,
+  .expertise-page__section,
+  .expertise-page__commitment,
+  .why-page__hero,
+  .why-page__section,
+  .why-page__commitment,
+  .contact-page__hero,
+  .contact-page__section,
+  .contact-page__closing,
+  .legal-page__hero,
+  .legal-page__section,
+  .legal-page__contact {
+    background:
+      radial-gradient(circle at top right, rgba(47, 143, 255, 0.12), transparent 30%),
+      linear-gradient(180deg, rgba(10, 16, 28, 0.96) 0%, rgba(5, 9, 18, 0.98) 100%) !important;
+    box-shadow:
+      inset 0 1px 0 rgba(160, 210, 255, 0.06),
+      0 20px 42px rgba(0, 0, 0, 0.16) !important;
+  }
+
+  .home-page__hero-copy p,
+  .about-page__hero-copy p,
+  .services-page__hero-copy p,
+  .products-page__hero-copy p,
+  .expertise-page__hero-copy p,
+  .why-page__hero-copy p,
+  .contact-page__hero-copy p,
+  .legal-page__hero-copy p,
+  .home-page__about-copy p,
+  .about-page__overview-copy p,
+  .services-page__service-content p,
+  .products-page__spotlight-content p,
+  .expertise-page__card p,
+  .why-page__card-copy p,
+  .contact-page__card-body p,
+  .legal-page__card-body p,
+  .legal-page__card p {
+    color: rgba(223, 236, 255, 0.84) !important;
+  }
+
+  .home-page__metric,
+  .home-page__info-card,
+  .home-page__service-card,
+  .home-page__spotlight-card,
+  .home-page__expertise-card,
+  .home-page__why-card,
+  .about-page__highlight,
+  .about-page__info-card,
+  .about-page__value-card,
+  .about-page__approach-card,
+  .about-page__commitment-card,
+  .services-page__highlight,
+  .services-page__approach-card,
+  .services-page__service-card,
+  .services-page__support-card,
+  .products-page__highlight,
+  .products-page__spotlight-card,
+  .products-page__commitment-card,
+  .expertise-page__highlight,
+  .expertise-page__card,
+  .expertise-page__commitment-card,
+  .why-page__highlight,
+  .why-page__card,
+  .why-page__commitment-card,
+  .contact-page__highlight,
+  .contact-page__card,
+  .contact-page__closing-card,
+  .legal-page__highlight,
+  .legal-page__card,
+  .legal-page__policy-item,
+  .legal-page__contact-card {
+    box-shadow:
+      inset 0 1px 0 rgba(174, 220, 255, 0.04),
+      0 14px 30px rgba(0, 0, 0, 0.12) !important;
+  }
+
+  .home-page__metric:hover,
+  .home-page__info-card:hover,
+  .home-page__service-card:hover,
+  .home-page__spotlight-card:hover,
+  .home-page__expertise-card:hover,
+  .home-page__why-card:hover,
+  .about-page__highlight:hover,
+  .about-page__info-card:hover,
+  .about-page__value-card:hover,
+  .about-page__approach-card:hover,
+  .about-page__commitment-card:hover,
+  .services-page__highlight:hover,
+  .services-page__approach-card:hover,
+  .services-page__service-card:hover,
+  .services-page__support-card:hover,
+  .products-page__highlight:hover,
+  .products-page__spotlight-card:hover,
+  .products-page__commitment-card:hover,
+  .expertise-page__highlight:hover,
+  .expertise-page__card:hover,
+  .expertise-page__commitment-card:hover,
+  .why-page__highlight:hover,
+  .why-page__card:hover,
+  .why-page__commitment-card:hover,
+  .contact-page__highlight:hover,
+  .contact-page__card:hover,
+  .contact-page__closing-card:hover,
+  .legal-page__highlight:hover,
+  .legal-page__card:hover,
+  .legal-page__policy-item:hover,
+  .legal-page__contact-card:hover {
+    box-shadow:
+      inset 0 1px 0 rgba(174, 220, 255, 0.05),
+      0 20px 38px rgba(0, 0, 0, 0.15) !important;
+  }
+
+  .entry-clock__quote p,
+  .entry-clock__overlay-typing {
+    color: #ffffff;
+  }
+
+  .entry-clock__enter {
+    background: transparent;
+    color: #d4e9ff;
+  }
+
+  .entry-clock__enter:hover {
+    color: #ffffff;
+    background: rgba(47, 143, 255, 0.12);
+    box-shadow: 0 0 22px rgba(47, 143, 255, 0.18);
+  }
+
+  .entry-clock__overlay {
+    background: rgba(0, 0, 0, 0.78);
+  }
+
+  .entry-clock__overlay-panel {
+    background: linear-gradient(180deg, rgba(10, 14, 22, 0.96) 0%, rgba(4, 8, 16, 0.98) 100%);
+    box-shadow: 0 0 32px rgba(47, 143, 255, 0.16);
+  }
+
+  .entry-clock__overlay-panel p {
+    color: #dcecff;
+  }
+
+  .site-footer {
+    background: #050a12;
+  }
+
+  .site-footer__panel {
+    background: linear-gradient(180deg, rgba(6, 10, 18, 0.86) 0%, rgba(2, 5, 12, 0.98) 100%);
+    box-shadow: inset 0 1px 0 rgba(123, 191, 255, 0.08);
+  }
+
+  .site-footer__description,
+  .site-footer__copyright {
+    color: rgba(214, 230, 255, 0.76);
+  }
+
+  .site-footer__text {
+    color: rgba(214, 230, 255, 0.82);
+  }
+
+  .site-nav__toggle {
+    background: rgba(9, 15, 27, 0.92);
+    color: #dcecff;
+  }
 }
