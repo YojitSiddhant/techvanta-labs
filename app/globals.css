@@ -6482,6 +6482,80 @@ html {
   box-shadow: inset 0 0 0 1px rgba(123, 191, 255, 0.08), 0 10px 20px rgba(0, 0, 0, 0.1) !important;
 }
 
+@media (prefers-color-scheme: light) {
+  .home-page__hero-copy h1,
+  .about-page__hero-copy h1,
+  .services-page__hero-copy h1,
+  .products-page__hero-copy h1,
+  .expertise-page__hero-copy h1,
+  .why-page__hero-copy h1,
+  .contact-page__hero-copy h1,
+  .legal-page__hero-copy h1,
+  .home-page__section-heading h2,
+  .about-page__section-heading h2,
+  .services-page__section-heading h2,
+  .products-page__section-heading h2,
+  .expertise-page__section-heading h2,
+  .why-page__section-heading h2,
+  .contact-page__section-heading h2,
+  .legal-page__section-heading h2 {
+    color: #17314c !important;
+  }
+
+  .home-page__metric strong,
+  .home-page__spotlight-card h3,
+  .home-page__expertise-card h3,
+  .home-page__why-card h3,
+  .about-page__value-card h3,
+  .about-page__approach-card h3,
+  .services-page__approach-card h3,
+  .products-page__spotlight-top h3,
+  .expertise-page__card h3,
+  .why-page__card h3,
+  .contact-page__card h3,
+  .legal-page__card h3 {
+    color: #17314c !important;
+    text-shadow: none !important;
+  }
+
+  .home-page__bullet-list,
+  .products-page__bullet-list,
+  .about-page__highlight p,
+  .services-page__highlight p,
+  .products-page__highlight p,
+  .expertise-page__highlight p,
+  .why-page__highlight p,
+  .contact-page__highlight p,
+  .legal-page__highlight p,
+  .home-page__values-strip span,
+  .about-page__hero-pillars span,
+  .services-page__hero-pillars span,
+  .products-page__hero-pillars span,
+  .expertise-page__hero-pillars span,
+  .why-page__hero-pillars span,
+  .contact-page__hero-pillars span,
+  .legal-page__hero-pillars span,
+  .site-footer__heading,
+  .site-footer__link,
+  .site-footer__description {
+    color: #315678 !important;
+  }
+
+  .home-page__values-strip span,
+  .about-page__hero-pillars span,
+  .services-page__hero-pillars span,
+  .products-page__hero-pillars span,
+  .expertise-page__hero-pillars span,
+  .why-page__hero-pillars span,
+  .contact-page__hero-pillars span,
+  .legal-page__hero-pillars span {
+    background: linear-gradient(180deg, rgba(47, 143, 255, 0.08) 0%, rgba(47, 143, 255, 0.03) 100%) !important;
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.55),
+      0 10px 22px rgba(62, 110, 168, 0.08) !important;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
