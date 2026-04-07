@@ -6547,6 +6547,76 @@ html {
     height: 2px !important;
   }
 
+  .page-shell,
+  .site-footer {
+    color: #1f2937 !important;
+  }
+
+  .page-shell :is(h1, h2, h3, h4, h5, h6, strong),
+  .site-footer :is(h1, h2, h3, h4, h5, h6, strong) {
+    color: #111827 !important;
+    text-shadow: none !important;
+  }
+
+  .page-shell :is(p, li, dt, dd, small),
+  .site-footer :is(p, li, dt, dd, small) {
+    color: #374151 !important;
+  }
+
+  .page-shell :is(ul, ol) {
+    color: #374151 !important;
+  }
+
+  .hero-slider__slide {
+    background: #d9dde3 !important;
+  }
+
+  .hero-slider__slide::after {
+    opacity: 0 !important;
+  }
+
+  .hero-slider__slide::before {
+    background: none !important;
+  }
+
+  .hero-slider__backdrop {
+    filter: blur(3px) saturate(1.24) contrast(1.04) brightness(1.08) !important;
+    opacity: 1 !important;
+  }
+
+  .home-page__metric::before,
+  .home-page__service-card::before,
+  .services-page__service-media,
+  .products-page__visual-image,
+  .products-page__spotlight-image,
+  .about-page__visual-image,
+  .expertise-page__visual-image,
+  .why-page__visual-image,
+  .contact-page__visual-image,
+  .legal-page__visual-image,
+  .why-page__card-image,
+  .contact-page__card-image,
+  .legal-page__card-image {
+    filter: saturate(1.28) contrast(1.06) brightness(1.12) !important;
+    opacity: 1 !important;
+  }
+
+  .home-page__metric::after,
+  .home-page__service-card::after,
+  .about-page__visual-card::after,
+  .services-page__service-card::after,
+  .products-page__visual-card::after,
+  .products-page__spotlight-media::after,
+  .expertise-page__visual-card::after,
+  .why-page__visual-card::after,
+  .why-page__card-media::after,
+  .contact-page__visual-card::after,
+  .legal-page__visual-card::after,
+  .contact-page__card-media::after,
+  .legal-page__card-media::after {
+    display: none !important;
+  }
+
   .home-page__hero-copy h1,
   .about-page__hero-copy h1,
   .services-page__hero-copy h1,
@@ -6807,6 +6877,30 @@ html {
     text-shadow: none !important;
   }
 
+  .about-page__visual-meta strong,
+  .services-page__visual-meta strong,
+  .products-page__visual-meta strong,
+  .expertise-page__visual-meta strong,
+  .why-page__visual-meta strong,
+  .contact-page__visual-meta strong,
+  .legal-page__visual-meta strong,
+  .contact-page__card-media-meta strong,
+  .legal-page__card-media-meta strong {
+    color: #ffffff !important;
+  }
+
+  .about-page__visual-meta span,
+  .services-page__visual-meta span,
+  .products-page__visual-meta span,
+  .expertise-page__visual-meta span,
+  .why-page__visual-meta span,
+  .contact-page__visual-meta span,
+  .legal-page__visual-meta span,
+  .contact-page__card-media-meta span,
+  .legal-page__card-media-meta span {
+    color: #e5edf7 !important;
+  }
+
   .hero-slider__button--primary {
     background: linear-gradient(135deg, #2f8fff 0%, #66b2ff 100%) !important;
     border-color: rgba(47, 143, 255, 0.72) !important;
@@ -6854,6 +6948,16 @@ html {
   .site-footer__panel {
     background: #ffffff !important;
     box-shadow: none !important;
+  }
+
+  .site-footer__copyright {
+    border-top: 1px solid rgba(15, 23, 42, 0.1) !important;
+    background: #ffffff !important;
+    color: #111827 !important;
+    text-shadow: none !important;
+    font-size: 0.82rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.02em !important;
   }
 }
 
