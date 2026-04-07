@@ -26,11 +26,6 @@ export function EntryClock() {
         <span>TechVanta Labs</span>
       </div>
 
-      <div className="entry-clock__location">
-        <span>BHOPAL</span>
-        <span>INDIA</span>
-      </div>
-
       <div className="entry-clock__actions">
         <button
           type="button"

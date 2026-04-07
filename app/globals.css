@@ -2673,26 +2673,6 @@ a {
   overflow: hidden;
 }
 
-.entry-clock__location {
-  position: relative;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  gap: 1.65rem;
-  color: var(--muted);
-  font-size: clamp(0.95rem, 1.9vw, 1.25rem);
-  font-weight: 700;
-  letter-spacing: 0.28em;
-  text-transform: uppercase;
-  transition: color 180ms ease, text-shadow 180ms ease, transform 180ms ease;
-}
-
-.entry-clock__location:hover {
-  color: #7fc0ff;
-  text-shadow: 0 0 14px rgba(47, 143, 255, 0.32);
-  transform: translateY(-1px);
-}
-
 .entry-clock__quote {
   position: relative;
   z-index: 1;
@@ -3313,11 +3293,6 @@ a {
   .entry-clock {
     min-height: 60vh;
     gap: 0.75rem;
-  }
-
-  .entry-clock__location {
-    gap: 1.1rem;
-    letter-spacing: 0.18em;
   }
 
   .entry-clock__quote p {
