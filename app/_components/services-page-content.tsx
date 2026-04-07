@@ -137,7 +137,6 @@ export function ServicesPageContent() {
               <div className="services-page__service-media" style={{ backgroundImage: `url("${item.image}")` }} />
               <div className="services-page__service-content">
                 <h3>{item.title}</h3>
-                <p>{item.description}</p>
               </div>
             </article>
           ))}
