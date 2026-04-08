@@ -1,5 +1,5 @@
-import { EntryClock } from "./_components/entry-clock";
+import { redirect } from "next/navigation";
 
 export default function EntryPage() {
-  return <EntryClock />;
+  redirect("/home");
 }

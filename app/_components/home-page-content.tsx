@@ -24,10 +24,28 @@ type Differentiator = {
 };
 
 type HeroSlide = {
+  id: string;
   eyebrow: string;
   title: string;
   description: string;
-  image: string;
+  primaryCta: {
+    label: string;
+    href: string;
+  };
+  secondaryCta: {
+    label: string;
+    href: string;
+  };
+  accent: string;
+  themeClassName: string;
+  preview: {
+    kind: "portrait" | "product" | "browser" | "form";
+    image?: string;
+    alt?: string;
+    badge?: string;
+    caption?: string;
+  };
+  meta: string[];
 };
 
 const serviceItems: ServiceItem[] = [
@@ -137,25 +155,100 @@ const differentiators: Differentiator[] = [
 
 const heroSlides: HeroSlide[] = [
   {
-    eyebrow: "Medicine Inventory Monitoring System",
-    title: "MeDio helps pharmacies control stock, billing, and reporting with less friction.",
+    id: "intro",
+    eyebrow: "TechVanta Labs",
+    title: "Digital systems built to feel clear, fast, and ready to scale.",
     description:
-      "Built for medicine stores and pharmacies that need better inventory clarity, faster transactions, and stronger day-to-day operational oversight.",
-    image: "/slider/medio-visual.svg",
+      "Custom software, websites, mobile apps, and enterprise platforms shaped around business goals, clean execution, and long-term reliability.",
+    primaryCta: {
+      label: "Our Works",
+      href: "/products",
+    },
+    secondaryCta: {
+      label: "Contact",
+      href: "/contact",
+    },
+    accent: "linear-gradient(90deg, #3d83df 0%, #6b44d9 100%)",
+    themeClassName: "hero-slider--intro",
+    preview: {
+      kind: "portrait",
+      image: "/slider/finedge-visual.svg",
+      alt: "TechVanta Labs featured product illustration",
+      badge: "Reliable Delivery",
+      caption: "Business-first builds for web, mobile, and internal platforms.",
+    },
+    meta: ["Custom software delivery", "Responsive across devices", "Built for business growth"],
   },
   {
-    eyebrow: "Financial Services Lead Management System",
-    title: "FinEdge centralizes lead intake, follow-up, assignment, and conversion visibility.",
+    id: "product",
+    eyebrow: "Product Systems",
+    title: "Business platforms that organize operations with less friction.",
     description:
-      "A unified CRM system for insurance and investment workflows that improves coordination, response time, and lead lifecycle control.",
-    image: "/slider/finedge-visual.svg",
+      "From CRM and lead workflows to inventory control and reporting, we design software that gives teams one place to work with confidence.",
+    primaryCta: {
+      label: "Next Project",
+      href: "/products",
+    },
+    secondaryCta: {
+      label: "More",
+      href: "/services",
+    },
+    accent: "linear-gradient(90deg, #ff9d00 0%, #f04f24 100%)",
+    themeClassName: "hero-slider--product",
+    preview: {
+      kind: "product",
+      image: "/slider/medio-visual.svg",
+      alt: "Medicine inventory monitoring product visual",
+      badge: "MeDio",
+      caption: "Inventory, billing, returns, and analytics in one operating view.",
+    },
+    meta: ["ERP and CRM workflows", "Dashboard-led visibility", "Process automation"],
   },
   {
-    eyebrow: "Integrated Government ERP System",
-    title: "Civica Core modernizes public administration with a unified digital ERP framework.",
+    id: "web",
+    eyebrow: "Web Experiences",
+    title: "Modern web experiences with bold visuals and cleaner conversion flow.",
     description:
-      "Designed for government departments and public organizations that need transparent workflows, real-time reporting, and dependable inter-department coordination.",
-    image: "/slider/civica-visual.svg",
+      "Landing pages, company sites, portals, and digital products are built to perform on desktop, tablet, and mobile without losing clarity.",
+    primaryCta: {
+      label: "Next Project",
+      href: "/services",
+    },
+    secondaryCta: {
+      label: "More",
+      href: "/about",
+    },
+    accent: "linear-gradient(90deg, #16c7a2 0%, #19b8c5 100%)",
+    themeClassName: "hero-slider--web",
+    preview: {
+      kind: "browser",
+      image: "/slider/civica-visual.svg",
+      alt: "Government ERP dashboard visual in browser frame",
+      badge: "Web Experience",
+      caption: "Clean visual systems with stronger readability and conversion flow.",
+    },
+    meta: ["Responsive UI systems", "Performance-first layouts", "Brand-led visual direction"],
+  },
+  {
+    id: "contact",
+    eyebrow: "Start A Project",
+    title: "Share the idea, workflow, or problem. We will help shape the right build.",
+    description:
+      "Whether you need a website, mobile app, ERP, CRM, or a full custom software rollout, we keep the conversation practical and execution-focused.",
+    primaryCta: {
+      label: "Direct Mail",
+      href: "/contact",
+    },
+    secondaryCta: {
+      label: "Why Us",
+      href: "/why-us",
+    },
+    accent: "linear-gradient(90deg, #33a6e4 0%, #2157c6 100%)",
+    themeClassName: "hero-slider--contact",
+    preview: {
+      kind: "form",
+    },
+    meta: ["Fast response", "Clear scoping", "Long-term support"],
   },
 ];
 
