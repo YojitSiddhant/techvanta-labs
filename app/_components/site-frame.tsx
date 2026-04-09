@@ -170,28 +170,6 @@ export function SiteFrame({ children }: SiteFrameProps) {
                   Building dependable digital systems through custom software, websites,
                   applications, and growth-focused technology solutions.
                 </p>
-
-                <div className="site-footer__trust">
-                  <span>Business-first delivery</span>
-                  <span>Clear communication</span>
-                  <span>Long-term support</span>
-                </div>
-
-                <div className="site-footer__actions" aria-label="Footer actions">
-                  <a href="mailto:info@techvantalabs.com" className="site-footer__action">
-                    Email Us
-                  </a>
-                  <Link href="/contact" className="site-footer__action">
-                    Start A Project
-                  </Link>
-                  <Link href="/products" className="site-footer__action">
-                    View Products
-                  </Link>
-                </div>
-
-                <a href="#top" className="site-footer__backtop">
-                  Back To Top
-                </a>
               </div>
 
               <div className="site-footer__columns">
