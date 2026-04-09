@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const serviceHighlights = [
   "Custom software, websites, mobile apps, branding, and digital marketing under one delivery model",
   "Solutions shaped around business goals, operational clarity, and long-term scalability",
@@ -37,32 +39,37 @@ const approachItems = [
 const serviceItems = [
   {
     title: "Custom Software Development",
+    label: "Systems",
     description:
-      "We build bespoke web and desktop solutions aligned with your business goals, helping startups and growing enterprises manage operations efficiently and scale with confidence.",
+      "Bespoke web and internal systems shaped around workflows, reporting, and business growth.",
     image: "/services/custom-software-bg.svg",
   },
   {
     title: "Website Development",
+    label: "Experience",
     description:
-      "We create modern, responsive websites tailored to your brand, with a strong focus on usability, performance, and a polished digital presence that reflects your identity.",
+      "Modern websites with stronger usability, clearer structure, and a sharper digital presence.",
     image: "/services/website-bg.svg",
   },
   {
     title: "Mobile App Development",
+    label: "Mobile",
     description:
-      "From customer-facing products to internal business tools, we deliver practical mobile applications built for usability, business value, and long-term maintainability.",
+      "Practical mobile apps for customer journeys and internal teams, built for daily use.",
     image: "/services/mobile-bg.svg",
   },
   {
     title: "Creative & Branding Services",
+    label: "Brand",
     description:
-      "We support brand identity across digital and physical touchpoints through graphic design, promotional materials, and outdoor branding that keeps presentation consistent and professional.",
+      "Brand identity support across digital and physical touchpoints so presentation stays consistent.",
     image: "/services/branding-bg.svg",
   },
   {
     title: "Digital Marketing",
+    label: "Growth",
     description:
-      "We combine social media strategy, e-commerce support, and lead-focused digital marketing to expand reach, attract new customers, and convert attention into growth.",
+      "Lead-focused marketing support that helps convert attention into practical business growth.",
     image: "/services/marketing-bg.svg",
   },
 ] as const;
@@ -82,9 +89,8 @@ export function ServicesPageContent() {
           <span className="services-page__eyebrow">What We Provide</span>
           <h1>Services designed to solve real business problems and support long-term growth.</h1>
           <p>
-            TechVanta Labs delivers software design, development, website creation, mobile
-            applications, branding, and digital marketing as a unified business-focused service
-            offering built to generate value, clarity, and results.
+            TechVanta Labs delivers software, websites, mobile apps, branding, and digital
+            marketing through one business-focused delivery model built for clarity and results.
           </p>
           <div className="services-page__hero-pillars">
             {servicePillars.map((item) => (
@@ -113,8 +119,36 @@ export function ServicesPageContent() {
 
       <section className="services-page__section">
         <div className="services-page__section-heading">
+          <span>Service Portfolio</span>
+          <h2>Five core service areas built to strengthen operations, presence, and growth.</h2>
+          <p>
+            This is where capability becomes concrete: the systems, experiences, and growth work
+            we deliver most often for clients.
+          </p>
+        </div>
+        <div className="services-page__services-grid">
+          {serviceItems.map((item, index) => (
+            <article key={item.title} className="services-page__service-card">
+              <div className="services-page__service-media" style={{ backgroundImage: `url("${item.image}")` }} />
+              <div className="services-page__service-content">
+                <span>{item.label}</span>
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+                <strong>{index === 0 ? "Best for operations-heavy builds" : "Built around practical delivery"}</strong>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="services-page__support">
+        <div className="services-page__section-heading services-page__support-heading">
           <span>Our Approach</span>
-          <h2>Clear thinking, experienced execution, and delivery structured around your business.</h2>
+          <h2>How delivery stays clear from planning through long-term support.</h2>
+          <p>
+            After capability comes process. We keep planning transparent, execution disciplined,
+            and support close enough to stay useful.
+          </p>
         </div>
         <div className="services-page__approach-grid">
           {approachItems.map((item) => (
@@ -126,27 +160,14 @@ export function ServicesPageContent() {
         </div>
       </section>
 
-      <section className="services-page__section">
-        <div className="services-page__section-heading">
-          <span>Service Portfolio</span>
-          <h2>Five core service areas built to strengthen operations, presence, and growth.</h2>
-        </div>
-        <div className="services-page__services-grid">
-          {serviceItems.map((item) => (
-            <article key={item.title} className="services-page__service-card">
-              <div className="services-page__service-media" style={{ backgroundImage: `url("${item.image}")` }} />
-              <div className="services-page__service-content">
-                <h3>{item.title}</h3>
-              </div>
-            </article>
-          ))}
-        </div>
-      </section>
-
       <section className="services-page__support">
         <div className="services-page__section-heading services-page__support-heading">
           <span>Client Commitment</span>
           <h2>Support principles that stay active long after the build is complete.</h2>
+          <p>
+            This is the trust layer clients feel after launch: responsiveness, clarity, and
+            follow-through that stays practical.
+          </p>
         </div>
         <div className="services-page__support-grid">
           {supportPoints.map((point) => (
@@ -157,6 +178,20 @@ export function ServicesPageContent() {
               </div>
             </article>
           ))}
+        </div>
+      </section>
+
+      <section className="page-cta">
+        <div className="page-cta__copy">
+          <span>Next Step</span>
+          <h2>Have a project, workflow, or business problem that needs the right build?</h2>
+          <p>
+            We can help shape scope, identify the right service mix, and move toward execution.
+          </p>
+        </div>
+        <div className="page-cta__actions">
+          <Link href="/contact" className="page-cta__button page-cta__button--primary">Discuss Your Project</Link>
+          <Link href="/products" className="page-cta__button page-cta__button--secondary">View Products</Link>
         </div>
       </section>
     </div>

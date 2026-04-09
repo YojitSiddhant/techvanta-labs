@@ -1,6 +1,19 @@
 import type { Metadata } from "next";
+import { Manrope, Sora } from "next/font/google";
 import "./globals.css";
 import { SiteShell } from "./_components/site-shell";
+
+const manrope = Manrope({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-body",
+});
+
+const sora = Sora({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-display",
+});
 
 export const metadata: Metadata = {
   title: "TechVanta Labs",
@@ -15,7 +28,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className="h-full antialiased"
+      className={`${manrope.variable} ${sora.variable} h-full antialiased`}
       data-scroll-behavior="smooth"
     >
       <body className="min-h-full">

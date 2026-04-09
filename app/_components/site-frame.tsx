@@ -19,50 +19,6 @@ type SiteFrameProps = {
   children: React.ReactNode;
 };
 
-function SocialIcon({ platform }: { platform: "x" | "linkedin" | "instagram" | "facebook" }) {
-  if (platform === "x") {
-    return (
-      <svg viewBox="0 0 24 24" aria-hidden="true" className="site-footer__social-icon">
-        <path
-          d="M18.9 3H21l-6.55 7.49L22.16 21H16.1l-4.75-6.21L5.92 21H3.8l7-8.01L2.4 3h6.22l4.3 5.68L18.9 3Zm-1.07 16.2h1.16L7.77 4.74H6.52L17.83 19.2Z"
-          fill="currentColor"
-        />
-      </svg>
-    );
-  }
-
-  if (platform === "linkedin") {
-    return (
-      <svg viewBox="0 0 24 24" aria-hidden="true" className="site-footer__social-icon">
-        <path
-          d="M6.94 8.5H3.56V20h3.38V8.5ZM5.25 3A1.96 1.96 0 1 0 5.3 6.92 1.96 1.96 0 0 0 5.25 3Zm15.19 9.74c0-3.47-1.85-5.08-4.32-5.08a3.73 3.73 0 0 0-3.36 1.85V8.5H9.38c.05.66 0 11.5 0 11.5h3.38v-6.42c0-.34.02-.68.13-.92.27-.68.88-1.39 1.9-1.39 1.34 0 1.88 1.03 1.88 2.54V20h3.38v-7.26Z"
-          fill="currentColor"
-        />
-      </svg>
-    );
-  }
-
-  if (platform === "instagram") {
-    return (
-      <svg viewBox="0 0 24 24" aria-hidden="true" className="site-footer__social-icon">
-        <path
-          d="M7.5 3h9A4.5 4.5 0 0 1 21 7.5v9a4.5 4.5 0 0 1-4.5 4.5h-9A4.5 4.5 0 0 1 3 16.5v-9A4.5 4.5 0 0 1 7.5 3Zm0 1.8A2.7 2.7 0 0 0 4.8 7.5v9a2.7 2.7 0 0 0 2.7 2.7h9a2.7 2.7 0 0 0 2.7-2.7v-9a2.7 2.7 0 0 0-2.7-2.7h-9Zm9.45 1.35a1.05 1.05 0 1 1 0 2.1 1.05 1.05 0 0 1 0-2.1ZM12 7.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5Zm0 1.8A2.7 2.7 0 1 0 14.7 12 2.7 2.7 0 0 0 12 9.3Z"
-          fill="currentColor"
-        />
-      </svg>
-    );
-  }
-
-  return (
-    <svg viewBox="0 0 24 24" aria-hidden="true" className="site-footer__social-icon">
-      <path
-        d="M13.5 21v-7.2h2.42l.36-2.8H13.5V9.2c0-.81.23-1.36 1.4-1.36h1.5V5.34c-.26-.04-1.14-.1-2.16-.1-2.14 0-3.6 1.31-3.6 3.71v2.05H8.2v2.8h2.44V21h2.86Z"
-        fill="currentColor"
-      />
-    </svg>
-  );
-}
-
 function NavIcon({
   icon,
 }: {
@@ -215,31 +171,22 @@ export function SiteFrame({ children }: SiteFrameProps) {
                   applications, and growth-focused technology solutions.
                 </p>
 
-                <div className="site-footer__socials" aria-label="Social links">
-                  <a href="#" className="site-footer__social site-footer__social--x" aria-label="X">
-                    <SocialIcon platform="x" />
+                <div className="site-footer__trust">
+                  <span>Business-first delivery</span>
+                  <span>Clear communication</span>
+                  <span>Long-term support</span>
+                </div>
+
+                <div className="site-footer__actions" aria-label="Footer actions">
+                  <a href="mailto:info@techvantalabs.com" className="site-footer__action">
+                    Email Us
                   </a>
-                  <a
-                    href="#"
-                    className="site-footer__social site-footer__social--linkedin"
-                    aria-label="LinkedIn"
-                  >
-                    <SocialIcon platform="linkedin" />
-                  </a>
-                  <a
-                    href="#"
-                    className="site-footer__social site-footer__social--instagram"
-                    aria-label="Instagram"
-                  >
-                    <SocialIcon platform="instagram" />
-                  </a>
-                  <a
-                    href="#"
-                    className="site-footer__social site-footer__social--facebook"
-                    aria-label="Facebook"
-                  >
-                    <SocialIcon platform="facebook" />
-                  </a>
+                  <Link href="/contact" className="site-footer__action">
+                    Start A Project
+                  </Link>
+                  <Link href="/products" className="site-footer__action">
+                    View Products
+                  </Link>
                 </div>
 
                 <a href="#top" className="site-footer__backtop">

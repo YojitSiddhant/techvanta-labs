@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const expertiseHighlights = [
   "Deep capability across intelligence, cloud, security, analytics, and application delivery",
   "Built to help organizations innovate, optimize operations, and scale with clarity",
@@ -84,6 +86,10 @@ export function ExpertisePageContent() {
         <div className="expertise-page__section-heading">
           <span>Capability Areas</span>
           <h2>Five expertise areas that support stronger digital performance and better decisions.</h2>
+          <p>
+            These capability areas show where our technical depth becomes practical value for
+            systems, teams, and decision-makers.
+          </p>
         </div>
         <div className="expertise-page__grid">
           {expertiseItems.map((item) => (
@@ -99,6 +105,10 @@ export function ExpertisePageContent() {
         <div className="expertise-page__section-heading">
           <span>How We Apply Expertise</span>
           <h2>Principles that keep technical capability tied to practical business outcomes.</h2>
+          <p>
+            Expertise matters most when it stays connected to operations, clarity, and measurable
+            progress rather than unnecessary complexity.
+          </p>
         </div>
         <div className="expertise-page__commitment-grid">
           {expertiseCommitments.map((point) => (
@@ -107,6 +117,21 @@ export function ExpertisePageContent() {
               <p>{point}</p>
             </article>
           ))}
+        </div>
+      </section>
+
+      <section className="page-cta">
+        <div className="page-cta__copy">
+          <span>Build With Expertise</span>
+          <h2>Need help applying analytics, cloud, security, or product capability to real work?</h2>
+          <p>
+            We can turn technical capability into a focused roadmap that supports your next stage
+            of growth.
+          </p>
+        </div>
+        <div className="page-cta__actions">
+          <Link href="/contact" className="page-cta__button page-cta__button--primary">Talk To Us</Link>
+          <Link href="/services" className="page-cta__button page-cta__button--secondary">See Services</Link>
         </div>
       </section>
     </div>

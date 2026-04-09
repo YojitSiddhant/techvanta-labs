@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const whyHighlights = [
   "Fast response and real-person support when urgent issues need immediate attention",
   "Business-oriented recommendations grounded in practical business value",
@@ -90,6 +92,10 @@ export function WhyUsPageContent() {
         <div className="why-page__section-heading">
           <span>Why Clients Trust Us</span>
           <h2>Clear reasons organizations choose TechVanta Labs over generic development support.</h2>
+          <p>
+            The difference is not just technical ability. It is the combination of thinking,
+            communication, execution, and support clients feel throughout the engagement.
+          </p>
         </div>
         <div className="why-page__grid">
           {differentiators.map((item) => (
@@ -110,6 +116,10 @@ export function WhyUsPageContent() {
         <div className="why-page__section-heading">
           <span>Client Commitment</span>
           <h2>What TechVanta Labs stands for when clients rely on us day after day.</h2>
+          <p>
+            These commitments turn trust into something visible: faster response, clearer updates,
+            and lower-friction collaboration.
+          </p>
         </div>
         <div className="why-page__commitment-grid">
           {commitmentPoints.map((point) => (
@@ -118,6 +128,20 @@ export function WhyUsPageContent() {
               <p>{point}</p>
             </article>
           ))}
+        </div>
+      </section>
+
+      <section className="page-cta">
+        <div className="page-cta__copy">
+          <span>Work With Confidence</span>
+          <h2>Looking for a team that brings clarity, responsiveness, and dependable execution?</h2>
+          <p>
+            We&apos;re ready to help you scope the work and move from uncertainty to a practical plan.
+          </p>
+        </div>
+        <div className="page-cta__actions">
+          <Link href="/contact" className="page-cta__button page-cta__button--primary">Start The Conversation</Link>
+          <Link href="/about" className="page-cta__button page-cta__button--secondary">Learn More About Us</Link>
         </div>
       </section>
     </div>

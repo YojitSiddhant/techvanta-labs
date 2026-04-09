@@ -4,6 +4,7 @@ import { HomeHeroSlider } from "./home-hero-slider";
 type ServiceItem = {
   title: string;
   modifier: string;
+  summary: string;
 };
 
 type ExpertiseItem = {
@@ -49,11 +50,31 @@ type HeroSlide = {
 };
 
 const serviceItems: ServiceItem[] = [
-  { title: "Custom Software Development", modifier: "home-page__service-card--software" },
-  { title: "Website Development", modifier: "home-page__service-card--website" },
-  { title: "Mobile App Development", modifier: "home-page__service-card--mobile" },
-  { title: "Creative & Branding Services", modifier: "home-page__service-card--branding" },
-  { title: "Digital Marketing", modifier: "home-page__service-card--marketing" },
+  {
+    title: "Custom Software Development",
+    modifier: "home-page__service-card--software",
+    summary: "Internal systems, dashboards, and workflow tools built around real operations.",
+  },
+  {
+    title: "Website Development",
+    modifier: "home-page__service-card--website",
+    summary: "Conversion-aware websites with stronger performance, clarity, and brand presence.",
+  },
+  {
+    title: "Mobile App Development",
+    modifier: "home-page__service-card--mobile",
+    summary: "Mobile products designed for daily use, cleaner UX, and long-term maintainability.",
+  },
+  {
+    title: "Creative & Branding Services",
+    modifier: "home-page__service-card--branding",
+    summary: "Brand systems and collateral that keep every touchpoint more consistent.",
+  },
+  {
+    title: "Digital Marketing",
+    modifier: "home-page__service-card--marketing",
+    summary: "Campaign and growth support tied to leads, visibility, and business outcomes.",
+  },
 ];
 
 const expertiseItems: ExpertiseItem[] = [
@@ -99,7 +120,7 @@ const spotlightItems: SpotlightItem[] = [
     title: "MeDio",
     subtitle: "Medicine Inventory Monitoring System",
     description:
-      "A pharmacy-focused platform for stock control, billing, returns, and performance reporting.",
+      "A pharmacy-focused system for stock control, billing, returns, and day-to-day reporting.",
     points: [
       "Efficient drug stock tracking and movement control",
       "Seamless sale processing with receipts and balances",
@@ -121,7 +142,7 @@ const spotlightItems: SpotlightItem[] = [
     title: "Civica Core",
     subtitle: "Integrated Government ERP System",
     description:
-      "A modular ERP designed to digitize public administration and citizen-service operations.",
+      "A modular ERP built to digitize public administration and citizen-service operations.",
     points: [
       "Unified HR, finance, legal, procurement, RTI, and file tracking",
       "Role-based workflows, audit trails, and secure data handling",
@@ -269,8 +290,8 @@ export function HomePageContent() {
           <span className="home-page__eyebrow">Technology You Can Trust. Technology You Control.</span>
           <h1>Future-ready digital systems built for growth, speed, and reliability.</h1>
           <p>
-            TechVanta Labs delivers custom software, ERP, CRM, LMS, websites, mobile apps, and
-            digital growth solutions designed to transform how businesses operate and scale.
+            TechVanta Labs designs custom software, websites, mobile apps, and business platforms
+            that help teams work faster, operate more clearly, and scale with confidence.
           </p>
           <div className="home-page__hero-actions">
             <Link href="/services" className="home-page__button home-page__button--primary">Explore Services</Link>
@@ -290,22 +311,107 @@ export function HomePageContent() {
         </div>
       </div>
 
+      <section className="home-page__section">
+        <div className="home-page__section-heading">
+          <span>Proof In Products</span>
+          <h2>Working systems that show how TechVanta Labs builds around real-world operations.</h2>
+          <p>
+            Before capabilities and process, here is proof of execution: focused platforms designed
+            around inventory, lead management, and public-sector workflows.
+          </p>
+        </div>
+        <div className="home-page__spotlight-grid">
+          {spotlightItems.map((item, index) => (
+            <article
+              key={item.title}
+              className={`home-page__spotlight-card${index === 0 ? " home-page__spotlight-card--featured" : ""}`}
+            >
+              <div className="home-page__spotlight-top">
+                <span>{item.title}</span>
+                <h3>{item.subtitle}</h3>
+              </div>
+              <p>{item.description}</p>
+              <ul className="home-page__bullet-list">
+                {item.points.map((point) => (
+                  <li key={point}>{point}</li>
+                ))}
+              </ul>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="home-page__section">
+        <div className="home-page__section-heading">
+          <span>What We Provide</span>
+          <h2>Business-first services shaped around practical execution and long-term use.</h2>
+          <p>
+            Once the outcome is clear, we align the right service mix to the workflow, team, and
+            stage of growth you are planning for.
+          </p>
+        </div>
+        <div className="home-page__services-layout">
+          <div className="home-page__services-copy">
+            <p>
+              We plan every engagement around business value, operational clarity, and
+              maintainability, not just delivery for delivery&apos;s sake.
+            </p>
+            <ul className="home-page__bullet-list">
+              <li>Business-oriented recommendations instead of generic technology choices</li>
+              <li>Transparent planning, realistic timelines, and clear communication</li>
+              <li>Ongoing technical support after delivery</li>
+            </ul>
+          </div>
+          <div className="home-page__services-grid">
+            {serviceItems.map((item, index) => (
+              <article key={item.title} className={`home-page__service-card ${item.modifier}`}>
+                <span>{index === 0 ? "Featured Service" : "Core Service"}</span>
+                <h3>{item.title}</h3>
+                <p>{item.summary}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="home-page__section">
+        <div className="home-page__section-heading">
+          <span>Our Expertise</span>
+          <h2>Deep capability across the technologies modern organizations rely on.</h2>
+          <p>
+            These are the technical strengths behind the delivery model, helping us design systems
+            that stay useful, secure, and scalable.
+          </p>
+        </div>
+        <div className="home-page__expertise-grid">
+          {expertiseItems.map((item) => (
+            <article key={item.title} className="home-page__expertise-card">
+              <h3>{item.title}</h3>
+              <p>{item.description}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
       <section className="home-page__section home-page__section--about">
         <div className="home-page__section-heading">
           <span>About Us</span>
           <h2>Purpose-built technology that fits your business, not the other way around.</h2>
+          <p>
+            After product proof and capability, this is the company logic behind the work:
+            business context first, then systems that solve the right problem.
+          </p>
         </div>
         <div className="home-page__about-grid">
           <div className="home-page__about-copy">
             <p>
-              TechVanta Labs is a fast-growing technology solutions company based in Bhopal,
-              helping organizations across India improve efficiency, strengthen digital presence,
-              and accelerate growth with intelligent, tailored systems.
+              TechVanta Labs is a Bhopal-based technology company helping organizations across
+              India improve operations, strengthen digital presence, and move faster with
+              tailored systems.
             </p>
             <p>
-              We design and develop custom software, modern websites, mobile apps, and
-              enterprise-grade platforms that align closely with business objectives and solve real
-              operational challenges.
+              We build custom software, modern websites, mobile apps, and internal platforms that
+              stay close to business goals and solve operational problems directly.
             </p>
           </div>
           <div className="home-page__mission-grid">
@@ -327,75 +433,14 @@ export function HomePageContent() {
         </div>
       </section>
 
-      <section className="home-page__section home-page__section--services">
-        <div className="home-page__section-heading">
-          <span>What We Provide</span>
-          <h2>Business-first services with practical execution.</h2>
-        </div>
-        <div className="home-page__services-layout">
-          <div className="home-page__services-copy">
-            <p>
-              We do more than build websites or applications. Every engagement is planned around
-              business value, operational clarity, and long-term maintainability.
-            </p>
-            <ul className="home-page__bullet-list">
-              <li>Business-oriented recommendations instead of generic technology choices</li>
-              <li>Transparent planning, realistic timelines, and clear communication</li>
-              <li>Ongoing technical support after delivery</li>
-            </ul>
-          </div>
-          <div className="home-page__services-grid">
-            {serviceItems.map((item) => (
-              <article key={item.title} className={`home-page__service-card ${item.modifier}`}>
-                <h3>{item.title}</h3>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="home-page__section">
-        <div className="home-page__section-heading">
-          <span>Product Spotlight</span>
-          <h2>Three solutions that show how TechVanta Labs builds for real-world operations.</h2>
-        </div>
-        <div className="home-page__spotlight-grid">
-          {spotlightItems.map((item) => (
-            <article key={item.title} className="home-page__spotlight-card">
-              <div className="home-page__spotlight-top">
-                <span>{item.title}</span>
-                <h3>{item.subtitle}</h3>
-              </div>
-              <p>{item.description}</p>
-              <ul className="home-page__bullet-list">
-                {item.points.map((point) => (
-                  <li key={point}>{point}</li>
-                ))}
-              </ul>
-            </article>
-          ))}
-        </div>
-      </section>
-
-      <section className="home-page__section">
-        <div className="home-page__section-heading">
-          <span>Our Expertise</span>
-          <h2>Deep capability across the technologies modern organizations rely on.</h2>
-        </div>
-        <div className="home-page__expertise-grid">
-          {expertiseItems.map((item) => (
-            <article key={item.title} className="home-page__expertise-card">
-              <h3>{item.title}</h3>
-              <p>{item.description}</p>
-            </article>
-          ))}
-        </div>
-      </section>
-
       <section className="home-page__section">
         <div className="home-page__section-heading">
           <span>What Makes Us Stand Out</span>
           <h2>Reliable delivery shaped by experience, transparency, and collaboration.</h2>
+          <p>
+            This is the trust layer that supports every project: the way we communicate, plan, and
+            stay useful after launch.
+          </p>
         </div>
         <div className="home-page__why-grid">
           {differentiators.map((item) => (

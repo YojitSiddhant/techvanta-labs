@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const aboutHighlights = [
   "Headquartered in Bhopal, serving clients across India",
   "Custom software, websites, mobile apps, ERP, CRM, and LMS platforms",
@@ -120,6 +122,10 @@ export function AboutPageContent() {
         <div className="about-page__section-heading">
           <span>Who We Are</span>
           <h2>Purpose-built digital systems aligned with how organizations actually operate.</h2>
+          <p>
+            We start with business context, map the operational challenge, and design systems that
+            improve how teams work, decide, and grow.
+          </p>
         </div>
 
         <div className="about-page__overview-grid">
@@ -179,6 +185,10 @@ export function AboutPageContent() {
         <div className="about-page__section-heading">
           <span>Core Values</span>
           <h2>Principles that shape how TechVanta Labs designs, delivers, and supports.</h2>
+          <p>
+            These values are the reason our work stays practical, collaborative, and dependable
+            long after launch.
+          </p>
         </div>
 
         <div className="about-page__values-grid">
@@ -195,6 +205,10 @@ export function AboutPageContent() {
         <div className="about-page__section-heading">
           <span>Our Approach</span>
           <h2>Clear thinking, tailored execution, and dependable delivery.</h2>
+          <p>
+            Every engagement follows a simple path: understand the goal, shape the right system,
+            execute cleanly, and support what we build.
+          </p>
         </div>
 
         <div className="about-page__visual-card about-page__visual-card--approach">
@@ -223,6 +237,10 @@ export function AboutPageContent() {
         <div className="about-page__section-heading">
           <span>Client Commitment</span>
           <h2>What TechVanta Labs stands for in every engagement.</h2>
+          <p>
+            This is the trust layer behind the build: responsive support, clear communication, and
+            a delivery style clients can rely on.
+          </p>
         </div>
 
         <div className="about-page__commitment-grid">
@@ -232,6 +250,20 @@ export function AboutPageContent() {
               <p>{point}</p>
             </article>
           ))}
+        </div>
+      </section>
+
+      <section className="page-cta">
+        <div className="page-cta__copy">
+          <span>Start A Project</span>
+          <h2>Need a technology partner that understands both business and execution?</h2>
+          <p>
+            Let&apos;s talk through the workflow, challenge, or idea you want to move forward with.
+          </p>
+        </div>
+        <div className="page-cta__actions">
+          <Link href="/contact" className="page-cta__button page-cta__button--primary">Contact Us</Link>
+          <Link href="/services" className="page-cta__button page-cta__button--secondary">Explore Services</Link>
         </div>
       </section>
     </div>

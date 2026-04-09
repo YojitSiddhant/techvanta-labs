@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const contactHighlights = [
   "Reach TechVanta Labs directly for project discussions, support questions, or service inquiries.",
   "Communication stays transparent, business-focused, and responsive from the first conversation onward.",
@@ -100,6 +102,10 @@ export function ContactPageContent() {
         <div className="contact-page__section-heading">
           <span>Reach Us</span>
           <h2>Direct contact details for support, project discussions, and business inquiries.</h2>
+          <p>
+            If you already know the next step, these are the fastest ways to get in touch and keep
+            the conversation moving.
+          </p>
         </div>
         <div className="contact-page__grid">
           {contactCards.map((item) => (
@@ -125,6 +131,10 @@ export function ContactPageContent() {
         <div className="contact-page__section-heading">
           <span>TechVanta Labs</span>
           <h2>Building technology that grows with your business.</h2>
+          <p>
+            Behind every project is a working style built around clarity, responsiveness, and
+            practical progress from the first message onward.
+          </p>
         </div>
         <div className="contact-page__closing-grid">
           {contactClosing.map((point) => (
@@ -133,6 +143,21 @@ export function ContactPageContent() {
               <p>{point}</p>
             </article>
           ))}
+        </div>
+      </section>
+
+      <section className="page-cta">
+        <div className="page-cta__copy">
+          <span>Ready When You Are</span>
+          <h2>Prefer to explore first or jump straight into a project discussion?</h2>
+          <p>
+            You can reach us directly, review our services, or explore the kinds of products we
+            build before getting in touch.
+          </p>
+        </div>
+        <div className="page-cta__actions">
+          <a href="mailto:info@techvantalabs.com" className="page-cta__button page-cta__button--primary">Email TechVanta</a>
+          <Link href="/services" className="page-cta__button page-cta__button--secondary">Review Services</Link>
         </div>
       </section>
     </div>

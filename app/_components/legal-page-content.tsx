@@ -1,6 +1,6 @@
 const legalHighlights = [
   "Clear terms, privacy commitments, and liability boundaries for using TechVanta Labs services.",
-  "Cancellation and refund conditions are defined around the realities of software, consulting, and digital delivery.",
+  "Cancellation and refund conditions reflect the realities of software, consulting, and digital delivery.",
   "Formal service engagements are governed by proposals, contracts, or master service agreements.",
 ] as const;
 
@@ -149,9 +149,8 @@ export function LegalPageContent() {
           <span className="legal-page__eyebrow">Legal</span>
           <h1>Terms, privacy, and policy details presented with clarity.</h1>
           <p>
-            This page summarizes the core legal and policy information from TechVanta Labs,
-            including terms of use, privacy and data protection language, and cancellation and
-            refund conditions.
+            This page summarizes the core legal information from TechVanta Labs, including terms
+            of use, privacy language, and cancellation or refund conditions.
           </p>
           <div className="legal-page__hero-pillars">
             {legalPillars.map((item) => (
@@ -170,7 +169,7 @@ export function LegalPageContent() {
               <span>Policy Snapshot</span>
               <strong>Structured legal guidance that clarifies access, responsibility, and service boundaries.</strong>
               <p>
-                The legal framework is presented to make core terms, privacy language, and refund
+                The legal framework is designed to make core terms, privacy language, and refund
                 expectations easier to review before any formal engagement.
               </p>
             </div>
@@ -204,8 +203,11 @@ export function LegalPageContent() {
           <h2>Core legal points governing access to TechVanta Labs websites, services, and platforms.</h2>
         </div>
         <div className="legal-page__grid">
-          {termsSections.map((section) => (
-            <article key={section.title} className="legal-page__card legal-page__card--visual">
+          {termsSections.map((section, index) => (
+            <article
+              key={section.title}
+              className={`legal-page__card legal-page__card--visual${index === termsSections.length - 1 ? " legal-page__card--centered" : ""}`}
+            >
               <div className="legal-page__card-media">
                 <img src={section.image} alt={section.imageTitle} className="legal-page__card-image" />
                 <div className="legal-page__card-media-meta">
