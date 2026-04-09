@@ -5353,7 +5353,7 @@ body {
   }
 }
 
-@media (max-width: 1380px) and (min-width: 1025px) {
+@media (max-width: 1380px) and (min-width: 1025px) and (hover: hover) and (pointer: fine) {
   .site-header__inner {
     flex-direction: column;
     align-items: stretch;
@@ -5410,7 +5410,7 @@ body {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px), ((hover: none) and (pointer: coarse) and (max-width: 1400px)) {
   .site-header__inner {
     flex-direction: column;
     align-items: stretch;
@@ -5875,7 +5875,7 @@ body {
 }
 
 /* Consolidated responsive pass */
-@media (max-width: 1024px) {
+@media (max-width: 1024px), ((hover: none) and (pointer: coarse) and (max-width: 1400px)) {
   .home-page__hero,
   .about-page__hero,
   .services-page__hero,
@@ -9292,7 +9292,7 @@ h3,
     0 8px 18px rgba(8, 17, 32, 0.24);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px), ((hover: none) and (pointer: coarse) and (max-width: 1400px)) {
   .site-header__inner {
     flex-direction: column;
     align-items: stretch;
