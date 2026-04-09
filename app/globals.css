@@ -7709,6 +7709,70 @@ body {
   box-shadow: none;
 }
 
+@media (prefers-color-scheme: light) {
+  .home-page__metric span {
+    color: #d7ecff !important;
+    text-shadow: 0 2px 10px rgba(11, 35, 63, 0.18) !important;
+  }
+
+  .home-page__metric strong,
+  .home-page__service-card h3 {
+    color: #f8fbff !important;
+    text-shadow: 0 8px 24px rgba(5, 16, 31, 0.34) !important;
+  }
+
+  .about-page__visual-meta span,
+  .services-page__visual-meta span,
+  .products-page__visual-meta span,
+  .expertise-page__visual-meta span,
+  .why-page__visual-meta span,
+  .contact-page__visual-meta span,
+  .legal-page__visual-meta span,
+  .contact-page__card-media-meta span,
+  .legal-page__card-media-meta span {
+    color: #e9f4ff !important;
+    text-shadow: 0 2px 10px rgba(5, 16, 31, 0.34) !important;
+  }
+
+  .about-page__visual-meta strong,
+  .services-page__visual-meta strong,
+  .products-page__visual-meta strong,
+  .expertise-page__visual-meta strong,
+  .why-page__visual-meta strong,
+  .contact-page__visual-meta strong,
+  .legal-page__visual-meta strong,
+  .contact-page__card-media-meta strong,
+  .legal-page__card-media-meta strong {
+    color: #ffffff !important;
+    text-shadow: 0 6px 20px rgba(5, 16, 31, 0.42) !important;
+  }
+
+  .hero-slider__button--primary,
+  .home-page__button--primary,
+  .page-cta__button--primary {
+    color: #ffffff !important;
+  }
+
+  .hero-slider__button--secondary,
+  .home-page__button--secondary,
+  .page-cta__button--secondary,
+  .site-footer__action,
+  .site-footer__backtop {
+    color: #243b55 !important;
+  }
+
+  .page-cta__copy h2 {
+    color: #111827 !important;
+    text-shadow: none !important;
+  }
+
+  .page-cta__copy p,
+  .page-cta__copy span {
+    color: #4b5563 !important;
+    text-shadow: none !important;
+  }
+}
+
 .home-page__metric strong,
 .home-page__service-card h3 {
   text-shadow: 0 4px 18px rgba(0, 0, 0, 0.46) !important;
@@ -9802,4 +9866,407 @@ html[data-theme="light"] .site-footer__backtop {
   background: rgba(47, 143, 255, 0.08) !important;
   color: #15385e !important;
   border-color: rgba(47, 143, 255, 0.16) !important;
+}
+
+@media (prefers-color-scheme: light) {
+  body,
+  .site-shell,
+  .page-shell,
+  .site-footer,
+  .site-footer__panel,
+  .site-footer__content,
+  .site-footer__copyright {
+    color: #24364a !important;
+  }
+
+  .home-page__hero-copy h1,
+  .home-page__section-heading h2,
+  .home-page__cta h2,
+  .about-page__hero-copy h1,
+  .about-page__section-heading h2,
+  .services-page__hero-copy h1,
+  .services-page__section-heading h2,
+  .products-page__hero-copy h1,
+  .products-page__section-heading h2,
+  .expertise-page__hero-copy h1,
+  .expertise-page__section-heading h2,
+  .why-page__hero-copy h1,
+  .why-page__section-heading h2,
+  .contact-page__hero-copy h1,
+  .contact-page__section-heading h2,
+  .legal-page__hero-copy h1,
+  .legal-page__section-heading h2,
+  .page-cta__copy h2,
+  .home-page__spotlight-card h3,
+  .home-page__expertise-card h3,
+  .home-page__why-card h3,
+  .about-page__value-card h3,
+  .about-page__approach-card h3,
+  .services-page__approach-card h3,
+  .services-page__service-content h3,
+  .services-page__service-content strong,
+  .products-page__spotlight-top h3,
+  .expertise-page__card h3,
+  .why-page__card h3,
+  .contact-page__card h3,
+  .legal-page__card h3,
+  .site-footer__brand-name,
+  .site-footer__heading {
+    color: #11263d !important;
+    text-shadow: none !important;
+  }
+
+  .home-page__hero-copy p,
+  .home-page__section-heading p,
+  .home-page__about-copy p,
+  .home-page__services-copy p,
+  .home-page__spotlight-card p,
+  .home-page__expertise-card p,
+  .home-page__why-card p,
+  .home-page__cta p,
+  .home-page__bullet-list,
+  .home-page__bullet-list li,
+  .about-page__hero-copy p,
+  .about-page__section-heading p,
+  .about-page__overview-copy p,
+  .about-page__info-card p,
+  .about-page__value-card p,
+  .about-page__approach-card p,
+  .about-page__commitment-card p,
+  .services-page__hero-copy p,
+  .services-page__section-heading p,
+  .services-page__highlight p,
+  .services-page__approach-card p,
+  .services-page__service-content p,
+  .services-page__support-card p,
+  .products-page__hero-copy p,
+  .products-page__section-heading p,
+  .products-page__highlight p,
+  .products-page__spotlight-card p,
+  .products-page__spotlight-summary,
+  .products-page__commitment-card p,
+  .products-page__bullet-list,
+  .products-page__bullet-list li,
+  .expertise-page__hero-copy p,
+  .expertise-page__section-heading p,
+  .expertise-page__highlight p,
+  .expertise-page__card p,
+  .expertise-page__commitment-card p,
+  .why-page__hero-copy p,
+  .why-page__section-heading p,
+  .why-page__highlight p,
+  .why-page__card p,
+  .why-page__commitment-card p,
+  .contact-page__hero-copy p,
+  .contact-page__section-heading p,
+  .contact-page__highlight p,
+  .contact-page__card p,
+  .contact-page__closing-card p,
+  .legal-page__hero-copy p,
+  .legal-page__section-heading p,
+  .legal-page__highlight p,
+  .legal-page__card p,
+  .legal-page__policy-item p,
+  .legal-page__contact-card p,
+  .page-cta__copy p,
+  .site-footer__description,
+  .site-footer__text,
+  .site-footer__copyright {
+    color: #4d6279 !important;
+    text-shadow: none !important;
+  }
+
+  .home-page__section-heading span,
+  .about-page__section-heading span,
+  .services-page__section-heading span,
+  .products-page__section-heading span,
+  .expertise-page__section-heading span,
+  .why-page__section-heading span,
+  .contact-page__section-heading span,
+  .legal-page__section-heading span,
+  .home-page__eyebrow,
+  .about-page__eyebrow,
+  .services-page__eyebrow,
+  .products-page__eyebrow,
+  .expertise-page__eyebrow,
+  .why-page__eyebrow,
+  .contact-page__eyebrow,
+  .legal-page__eyebrow,
+  .page-cta__copy span,
+  .site-footer__link,
+  .site-nav__link,
+  .site-footer__trust span,
+  .site-footer__logo {
+    color: #2f78c6 !important;
+    text-shadow: none !important;
+  }
+
+  .hero-slider__button,
+  .home-page__button,
+  .page-cta__button,
+  .site-footer__action,
+  .site-footer__backtop {
+    text-shadow: none !important;
+  }
+
+  .hero-slider__button--primary,
+  .home-page__button--primary,
+  .page-cta__button--primary {
+    background: linear-gradient(135deg, #1976f2 0%, #5ea8ff 100%) !important;
+    border-color: rgba(25, 118, 242, 0.45) !important;
+    color: #ffffff !important;
+  }
+
+  .hero-slider__button--secondary,
+  .home-page__button--secondary,
+  .page-cta__button--secondary,
+  .site-footer__action,
+  .site-footer__backtop {
+    background: linear-gradient(180deg, #ffffff 0%, #f4f8fc 100%) !important;
+    border-color: rgba(31, 62, 95, 0.12) !important;
+    color: #28415c !important;
+  }
+
+  .hero-slider__button--secondary:hover,
+  .home-page__button--secondary:hover,
+  .page-cta__button--secondary:hover,
+  .site-footer__action:hover,
+  .site-footer__backtop:hover {
+    background: linear-gradient(180deg, #f8fbff 0%, #eaf2fb 100%) !important;
+    color: #1d3550 !important;
+  }
+
+  .home-page__metric,
+  .home-page__service-card,
+  .about-page__visual-card,
+  .services-page__service-card,
+  .products-page__visual-card,
+  .products-page__spotlight-media,
+  .expertise-page__visual-card,
+  .why-page__visual-card,
+  .why-page__card-media,
+  .contact-page__visual-card,
+  .contact-page__card-media,
+  .legal-page__visual-card,
+  .legal-page__card-media {
+    overflow: hidden;
+  }
+
+  .home-page__metric::after,
+  .home-page__service-card::after,
+  .about-page__visual-card::after,
+  .services-page__service-card::after,
+  .products-page__visual-card::after,
+  .products-page__spotlight-media::after,
+  .expertise-page__visual-card::after,
+  .why-page__visual-card::after,
+  .why-page__card-media::after,
+  .contact-page__visual-card::after,
+  .contact-page__card-media::after,
+  .legal-page__visual-card::after,
+  .legal-page__card-media::after {
+    display: block !important;
+    background:
+      linear-gradient(180deg, rgba(10, 26, 44, 0.08) 0%, rgba(10, 26, 44, 0.22) 44%, rgba(10, 26, 44, 0.68) 100%) !important;
+  }
+
+  .home-page__metric span {
+    color: #d3ebff !important;
+    text-shadow: 0 2px 8px rgba(5, 16, 31, 0.24) !important;
+  }
+
+  .home-page__metric strong,
+  .home-page__service-card h3 {
+    color: #ffffff !important;
+    text-shadow: 0 6px 18px rgba(5, 16, 31, 0.4) !important;
+  }
+
+  .about-page__visual-meta span,
+  .services-page__visual-meta span,
+  .products-page__visual-meta span,
+  .expertise-page__visual-meta span,
+  .why-page__visual-meta span,
+  .contact-page__visual-meta span,
+  .legal-page__visual-meta span,
+  .contact-page__card-media-meta span,
+  .legal-page__card-media-meta span {
+    color: #dbeeff !important;
+    text-shadow: 0 2px 8px rgba(5, 16, 31, 0.3) !important;
+  }
+
+  .about-page__visual-meta strong,
+  .services-page__visual-meta strong,
+  .products-page__visual-meta strong,
+  .expertise-page__visual-meta strong,
+  .why-page__visual-meta strong,
+  .contact-page__visual-meta strong,
+  .legal-page__visual-meta strong,
+  .contact-page__card-media-meta strong,
+  .legal-page__card-media-meta strong {
+    color: #ffffff !important;
+    text-shadow: 0 4px 14px rgba(5, 16, 31, 0.42) !important;
+  }
+}
+
+/* Final light-mode contrast safety pass */
+@media (prefers-color-scheme: light) {
+  .site-nav__link,
+  .site-footer__link,
+  .site-footer__description,
+  .site-footer__text,
+  .site-footer__copyright,
+  .site-footer__trust span,
+  .site-footer__brand-name,
+  .site-footer__heading {
+    color: #17304d !important;
+    text-shadow: none !important;
+  }
+
+  .home-page__button--primary,
+  .hero-slider__button--primary,
+  .page-cta__button--primary {
+    color: #ffffff !important;
+  }
+
+  .home-page__button--secondary,
+  .hero-slider__button--secondary,
+  .page-cta__button--secondary,
+  .site-footer__action,
+  .site-footer__backtop {
+    color: #17304d !important;
+    text-shadow: none !important;
+  }
+
+  .home-page__spotlight-card span,
+  .home-page__info-card span,
+  .home-page__values-strip span,
+  .about-page__info-card span,
+  .products-page__spotlight-top span,
+  .contact-page__card-body span,
+  .legal-page__contact-card span {
+    color: #2c76c6 !important;
+    text-shadow: none !important;
+  }
+
+  .home-page__spotlight-card h3,
+  .home-page__expertise-card h3,
+  .home-page__why-card h3,
+  .home-page__info-card h3,
+  .about-page__info-card h3,
+  .about-page__value-card h3,
+  .about-page__approach-card h3,
+  .about-page__commitment-card h3,
+  .services-page__approach-card h3,
+  .services-page__support-card h3,
+  .services-page__service-content h3,
+  .products-page__spotlight-top h3,
+  .expertise-page__card h3,
+  .expertise-page__commitment-card h3,
+  .why-page__card h3,
+  .why-page__commitment-card h3,
+  .contact-page__card h3,
+  .contact-page__closing-card h3,
+  .legal-page__card h3,
+  .legal-page__policy-item h3,
+  .legal-page__contact-card h3 {
+    color: #11263d !important;
+    text-shadow: none !important;
+  }
+
+  .home-page__spotlight-card p,
+  .home-page__expertise-card p,
+  .home-page__why-card p,
+  .home-page__info-card p,
+  .home-page__about-copy p,
+  .home-page__services-copy p,
+  .home-page__bullet-list,
+  .home-page__bullet-list li,
+  .about-page__overview-copy p,
+  .about-page__info-card p,
+  .about-page__value-card p,
+  .about-page__approach-card p,
+  .about-page__commitment-card p,
+  .services-page__highlight p,
+  .services-page__approach-card p,
+  .services-page__support-card p,
+  .services-page__service-content p,
+  .services-page__service-content strong,
+  .products-page__highlight p,
+  .products-page__spotlight-card p,
+  .products-page__spotlight-summary,
+  .products-page__bullet-list,
+  .products-page__bullet-list li,
+  .products-page__commitment-card p,
+  .expertise-page__highlight p,
+  .expertise-page__card p,
+  .expertise-page__commitment-card p,
+  .why-page__highlight p,
+  .why-page__card p,
+  .why-page__commitment-card p,
+  .contact-page__highlight p,
+  .contact-page__card p,
+  .contact-page__closing-card p,
+  .contact-page__hero-support-copy p,
+  .legal-page__highlight p,
+  .legal-page__card p,
+  .legal-page__policy-item p,
+  .legal-page__contact-card p {
+    color: #4d6279 !important;
+    text-shadow: none !important;
+  }
+
+  .home-page__metric::after,
+  .home-page__service-card::after,
+  .about-page__visual-card::after,
+  .services-page__hero-visual::after,
+  .services-page__service-card::after,
+  .products-page__visual-card::after,
+  .expertise-page__visual-card::after,
+  .why-page__visual-card::after,
+  .why-page__card-media::after,
+  .contact-page__visual-card::after,
+  .contact-page__card-media::after,
+  .legal-page__visual-card::after,
+  .legal-page__card-media::after {
+    display: block !important;
+    background:
+      linear-gradient(180deg, rgba(8, 22, 38, 0.08) 0%, rgba(8, 22, 38, 0.24) 42%, rgba(8, 22, 38, 0.74) 100%) !important;
+  }
+
+  .home-page__metric span,
+  .home-page__service-card > span,
+  .services-page__visual-meta span,
+  .services-page__service-content span,
+  .about-page__visual-meta span,
+  .products-page__visual-meta span,
+  .expertise-page__visual-meta span,
+  .why-page__visual-meta span,
+  .contact-page__visual-meta span,
+  .legal-page__visual-meta span,
+  .contact-page__card-media-meta span,
+  .legal-page__card-media-meta span,
+  .contact-page__hero-support-copy span {
+    color: #d8ecff !important;
+    text-shadow: 0 2px 8px rgba(5, 16, 31, 0.28) !important;
+  }
+
+  .home-page__metric strong,
+  .home-page__service-card h3,
+  .home-page__service-card p,
+  .services-page__visual-meta strong,
+  .services-page__service-content h3,
+  .services-page__service-content p,
+  .services-page__service-content strong,
+  .about-page__visual-meta strong,
+  .products-page__visual-meta strong,
+  .expertise-page__visual-meta strong,
+  .why-page__visual-meta strong,
+  .contact-page__visual-meta strong,
+  .legal-page__visual-meta strong,
+  .contact-page__card-media-meta strong,
+  .legal-page__card-media-meta strong,
+  .contact-page__hero-support-copy strong {
+    color: #ffffff !important;
+    text-shadow: 0 6px 18px rgba(5, 16, 31, 0.4) !important;
+  }
 }
