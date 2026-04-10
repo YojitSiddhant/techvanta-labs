@@ -9113,7 +9113,7 @@ body {
   .hero-slider__content {
     grid-template-columns: minmax(0, 1fr);
     gap: 1rem;
-    padding-bottom: 6.85rem;
+    padding-bottom: 7.5rem;
   }
 
   .hero-slider__copy {
@@ -9148,11 +9148,46 @@ body {
   }
 
   .hero-slider__visual {
-    min-height: 19.5rem;
+    min-height: 20.5rem;
+    padding: 0.85rem;
   }
 
   .hero-slider__visual-panel {
-    min-height: 18.25rem;
+    min-height: 19rem;
+    display: flex;
+    align-items: flex-end;
+    padding: 0.85rem;
+  }
+
+  .hero-slider__visual-overlay {
+    position: relative;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    width: 100%;
+    margin-top: auto;
+    padding: 0.85rem 0.95rem;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 14px 30px rgba(15, 23, 42, 0.09);
+    backdrop-filter: blur(10px);
+  }
+
+  .hero-slider__visual-overlay strong {
+    font-size: 0.86rem;
+    line-height: 1.36;
+  }
+
+  .hero-slider__nav {
+    bottom: 1rem;
+  }
+
+  .hero-slider__dots {
+    bottom: 0.95rem;
+    max-width: calc(100% - 8.4rem);
+  }
+
+  .hero-slider__progress {
+    bottom: 4.7rem;
   }
 
   .hero-slider__contact-field--large textarea {
@@ -9258,7 +9293,7 @@ body {
     grid-template-columns: 1fr;
     gap: 0.85rem;
     min-height: auto;
-    padding: 0.95rem 0.35rem 5.25rem;
+    padding: 0.95rem 0.35rem 6rem;
   }
 
   .hero-slider__copy {
@@ -9326,23 +9361,32 @@ body {
   }
 
   .hero-slider__visual {
-    min-height: 11.5rem;
-    padding: 0.6rem;
+    min-height: 13.25rem;
+    padding: 0.7rem;
     border-radius: 0.9rem;
   }
 
   .hero-slider__visual-panel {
     width: 100%;
-    min-height: 11rem;
+    min-height: 12.4rem;
     border-radius: 0.9rem;
+    display: flex;
+    align-items: flex-end;
+    padding: 0.7rem;
   }
 
   .hero-slider__visual-overlay {
-    left: 0.65rem;
-    right: 0.65rem;
-    bottom: 0.65rem;
-    padding: 0.7rem 0.8rem;
+    position: relative;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    width: 100%;
+    margin-top: auto;
+    padding: 0.72rem 0.82rem;
     border-radius: 0.8rem;
+    background: rgba(255, 255, 255, 0.92);
+    box-shadow: 0 12px 28px rgba(15, 23, 42, 0.1);
+    backdrop-filter: blur(10px);
   }
 
   .hero-slider__visual-overlay span {
@@ -9351,8 +9395,8 @@ body {
   }
 
   .hero-slider__visual-overlay strong {
-    font-size: 0.84rem;
-    line-height: 1.4;
+    font-size: 0.82rem;
+    line-height: 1.34;
   }
 
   .hero-slider__contact-card {
@@ -9403,9 +9447,15 @@ body {
 
   .hero-slider__dots {
     left: 0.85rem;
-    bottom: 1.15rem;
+    bottom: 1rem;
     transform: none;
     gap: 0.25rem;
+    max-width: calc(100% - 7.4rem);
+    padding: 0.25rem 0.35rem;
+    border: 1px solid rgba(132, 153, 189, 0.18);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.74);
+    box-shadow: 0 8px 18px rgba(15, 23, 42, 0.08);
   }
 
   .hero-slider__dot {
@@ -9417,6 +9467,10 @@ body {
   .hero-slider__progress {
     left: 0.75rem;
     right: 0.75rem;
+    bottom: 4rem;
+    height: 0.22rem;
+    border-radius: 999px;
+    overflow: hidden;
   }
 }
 
