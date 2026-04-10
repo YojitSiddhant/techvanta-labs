@@ -30,6 +30,7 @@ export default function RootLayout({
       lang="en"
       className={`${manrope.variable} ${sora.variable} h-full antialiased`}
       data-scroll-behavior="smooth"
+      data-theme="light"
     >
       <body className="min-h-full">
         <SiteShell>{children}</SiteShell>
