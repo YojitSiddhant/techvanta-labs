@@ -38,6 +38,11 @@ export function HomeHeroSlider({ slides }: HomeHeroSliderProps) {
   const displayedIndex = isCompactStaticMode ? 0 : activeIndex;
   const activeSlide = slides[displayedIndex];
   const slideCount = slides.length;
+  const compactBackdropStyle = isCompactStaticMode && activeSlide.preview.image
+    ? {
+        backgroundImage: `linear-gradient(180deg, rgba(238, 244, 255, 0.38) 0%, rgba(248, 251, 255, 0.76) 52%, rgba(244, 240, 255, 0.96) 100%), url("${activeSlide.preview.image}")`,
+      }
+    : undefined;
 
   const showSlide = (index: number) => {
     setActiveIndex((index + slideCount) % slideCount);
@@ -81,6 +86,7 @@ export function HomeHeroSlider({ slides }: HomeHeroSliderProps) {
         <div
           className="hero-slider__backdrop"
           aria-hidden="true"
+          style={compactBackdropStyle}
         >
           <div className="hero-slider__glow hero-slider__glow--primary" />
           <div className="hero-slider__glow hero-slider__glow--secondary" />
@@ -113,36 +119,38 @@ export function HomeHeroSlider({ slides }: HomeHeroSliderProps) {
             </div>
           </div>
 
-          <div className="hero-slider__visual" aria-hidden="true">
-            {activeSlide.preview.kind !== "form" && activeSlide.preview.image ? (
-              <div className="hero-slider__visual-panel">
-                <div
-                  className="hero-slider__visual-art"
-                  style={{ backgroundImage: `url("${activeSlide.preview.image}")` }}
-                />
-                <div className="hero-slider__visual-overlay">
-                  <span>{activeSlide.preview.badge}</span>
-                  <strong>{activeSlide.preview.caption}</strong>
+          {!isCompactStaticMode ? (
+            <div className="hero-slider__visual" aria-hidden="true">
+              {activeSlide.preview.kind !== "form" && activeSlide.preview.image ? (
+                <div className="hero-slider__visual-panel">
+                  <div
+                    className="hero-slider__visual-art"
+                    style={{ backgroundImage: `url("${activeSlide.preview.image}")` }}
+                  />
+                  <div className="hero-slider__visual-overlay">
+                    <span>{activeSlide.preview.badge}</span>
+                    <strong>{activeSlide.preview.caption}</strong>
+                  </div>
                 </div>
-              </div>
-            ) : null}
+              ) : null}
 
-            {activeSlide.preview.kind === "form" ? (
-              <div className="hero-slider__contact-card">
-                <label className="hero-slider__contact-field">
-                  <span>Email</span>
-                  <input type="email" placeholder="Enter your email" />
-                </label>
-                <label className="hero-slider__contact-field hero-slider__contact-field--large">
-                  <span>Message</span>
-                  <textarea placeholder="Tell us about your project" rows={6} />
-                </label>
-                <button type="button" className="hero-slider__contact-submit">
-                  Send Request
-                </button>
-              </div>
-            ) : null}
-          </div>
+              {activeSlide.preview.kind === "form" ? (
+                <div className="hero-slider__contact-card">
+                  <label className="hero-slider__contact-field">
+                    <span>Email</span>
+                    <input type="email" placeholder="Enter your email" />
+                  </label>
+                  <label className="hero-slider__contact-field hero-slider__contact-field--large">
+                    <span>Message</span>
+                    <textarea placeholder="Tell us about your project" rows={6} />
+                  </label>
+                  <button type="button" className="hero-slider__contact-submit">
+                    Send Request
+                  </button>
+                </div>
+              ) : null}
+            </div>
+          ) : null}
         </div>
       </article>
 
