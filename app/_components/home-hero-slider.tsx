@@ -34,7 +34,9 @@ type HomeHeroSliderProps = {
 
 export function HomeHeroSlider({ slides }: HomeHeroSliderProps) {
   const [activeIndex, setActiveIndex] = useState(0);
-  const activeSlide = slides[activeIndex];
+  const [isCompactStaticMode, setIsCompactStaticMode] = useState(false);
+  const displayedIndex = isCompactStaticMode ? 0 : activeIndex;
+  const activeSlide = slides[displayedIndex];
   const slideCount = slides.length;
 
   const showSlide = (index: number) => {
@@ -46,16 +48,36 @@ export function HomeHeroSlider({ slides }: HomeHeroSliderProps) {
   });
 
   useEffect(() => {
+    const mediaQuery = window.matchMedia("(max-width: 1024px) and (orientation: portrait), (max-width: 768px)");
+
+    const updateCompactStaticMode = () => {
+      setIsCompactStaticMode(mediaQuery.matches);
+    };
+
+    updateCompactStaticMode();
+    mediaQuery.addEventListener("change", updateCompactStaticMode);
+
+    return () => mediaQuery.removeEventListener("change", updateCompactStaticMode);
+  }, []);
+
+  useEffect(() => {
+    if (isCompactStaticMode) {
+      return;
+    }
+
     const timer = window.setInterval(() => {
       goToNextSlide();
     }, 4200);
 
     return () => window.clearInterval(timer);
-  }, [goToNextSlide]);
+  }, [isCompactStaticMode, slideCount]);
 
   return (
-    <section className={`hero-slider ${activeSlide.themeClassName}`} aria-label="Featured company highlights">
-      <article className="hero-slider__slide" data-theme={activeSlide.id}>
+    <section
+      className={`hero-slider ${activeSlide.themeClassName}${isCompactStaticMode ? " hero-slider--compact" : ""}`}
+      aria-label="Featured company highlights"
+    >
+      <article className={`hero-slider__slide${isCompactStaticMode ? " hero-slider__slide--compact" : ""}`} data-theme={activeSlide.id}>
         <div
           className="hero-slider__backdrop"
           aria-hidden="true"
@@ -65,7 +87,7 @@ export function HomeHeroSlider({ slides }: HomeHeroSliderProps) {
           <div className="hero-slider__grid" />
         </div>
 
-        <div className="hero-slider__content">
+        <div className={`hero-slider__content${isCompactStaticMode ? " hero-slider__content--compact" : ""}`}>
           <div key={activeSlide.id} className="hero-slider__copy">
             <span className="hero-slider__eyebrow">{activeSlide.eyebrow}</span>
             <h2>{activeSlide.title}</h2>
@@ -124,42 +146,46 @@ export function HomeHeroSlider({ slides }: HomeHeroSliderProps) {
         </div>
       </article>
 
-      <div className="hero-slider__nav">
-        <button
-          type="button"
-          className="hero-slider__arrow"
-          onClick={() => showSlide(activeIndex - 1)}
-          aria-label="Show previous slide"
-        >
-          <span aria-hidden="true">&#8249;</span>
-        </button>
-        <button
-          type="button"
-          className="hero-slider__arrow"
-          onClick={() => showSlide(activeIndex + 1)}
-          aria-label="Show next slide"
-        >
-          <span aria-hidden="true">&#8250;</span>
-        </button>
-      </div>
+      {!isCompactStaticMode ? (
+        <>
+          <div className="hero-slider__nav">
+            <button
+              type="button"
+              className="hero-slider__arrow"
+              onClick={() => showSlide(activeIndex - 1)}
+              aria-label="Show previous slide"
+            >
+              <span aria-hidden="true">&#8249;</span>
+            </button>
+            <button
+              type="button"
+              className="hero-slider__arrow"
+              onClick={() => showSlide(activeIndex + 1)}
+              aria-label="Show next slide"
+            >
+              <span aria-hidden="true">&#8250;</span>
+            </button>
+          </div>
 
-      <div className="hero-slider__dots" aria-label="Slider navigation">
-        {slides.map((slide, index) => (
-          <button
-            key={slide.id}
-            type="button"
-            className={`hero-slider__dot${activeIndex === index ? " is-active" : ""}`}
-            onClick={() => showSlide(index)}
-            aria-label={`Go to slide ${index + 1}`}
-          >
-            <span>{String(index + 1).padStart(2, "0")}</span>
-          </button>
-        ))}
-      </div>
+          <div className="hero-slider__dots" aria-label="Slider navigation">
+            {slides.map((slide, index) => (
+              <button
+                key={slide.id}
+                type="button"
+                className={`hero-slider__dot${activeIndex === index ? " is-active" : ""}`}
+                onClick={() => showSlide(index)}
+                aria-label={`Go to slide ${index + 1}`}
+              >
+                <span>{String(index + 1).padStart(2, "0")}</span>
+              </button>
+            ))}
+          </div>
 
-      <div className="hero-slider__progress" aria-hidden="true">
-        <div className="hero-slider__progress-bar" style={{ width: `${((activeIndex + 1) / slideCount) * 100}%` }} />
-      </div>
+          <div className="hero-slider__progress" aria-hidden="true">
+            <div className="hero-slider__progress-bar" style={{ width: `${((activeIndex + 1) / slideCount) * 100}%` }} />
+          </div>
+        </>
+      ) : null}
 
       <div className="hero-slider__accent" aria-hidden="true" style={{ background: activeSlide.accent }} />
     </section>
