@@ -9151,7 +9151,14 @@ body {
 
 @media (min-width: 769px) and (max-width: 1024px) and (orientation: portrait) {
   .hero-slider--compact {
+    min-height: clamp(30rem, 60vh, 36rem);
     border-radius: 1.5rem;
+  }
+
+  .hero-slider__slide--compact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .hero-slider__content {
@@ -9162,6 +9169,7 @@ body {
 
   .hero-slider__content--compact {
     width: min(100%, 40rem);
+    align-self: center;
     margin-inline: auto;
     gap: 0;
     padding: 1.1rem 0.45rem 1.2rem;
