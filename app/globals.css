@@ -8934,6 +8934,7 @@ body {
 .hero-slider__content--compact {
   min-height: auto;
   grid-template-columns: 1fr;
+  align-items: start;
 }
 
 .hero-slider--compact .hero-slider__visual {
@@ -8942,6 +8943,8 @@ body {
 
 .hero-slider--compact .hero-slider__copy {
   width: 100%;
+  min-height: 0;
+  align-self: start;
   margin-inline: auto;
 }
 
@@ -9167,6 +9170,7 @@ body {
 
   .hero-slider--compact .hero-slider__copy {
     gap: 0.82rem;
+    min-height: 0;
     padding: 1.45rem 1.2rem 1.3rem;
     border-radius: 1.15rem;
     background: rgba(255, 255, 255, 0.82) !important;
@@ -9235,6 +9239,7 @@ body {
   .hero-slider--compact .hero-slider__support {
     gap: 0.4rem;
     margin-top: 0.15rem;
+    padding-top: 0;
   }
 
   .hero-slider--compact .hero-slider__support span {
