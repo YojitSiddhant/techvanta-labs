@@ -19,6 +19,22 @@ type SiteFrameProps = {
   children: React.ReactNode;
 };
 
+function GlobalLoader({ pathname }: { pathname: string }) {
+  return (
+    <div key={pathname} className="global-loader" aria-hidden="true">
+      <div className="global-loader__mark" aria-hidden="true">
+        <span />
+        <span />
+        <span />
+      </div>
+      <div className="global-loader__copy">
+        <strong>TechVanta Labs</strong>
+        <span>Loading your experience</span>
+      </div>
+    </div>
+  );
+}
+
 function NavIcon({
   icon,
 }: {
@@ -103,6 +119,8 @@ export function SiteFrame({ children }: SiteFrameProps) {
 
   return (
     <div className="site-shell">
+      <GlobalLoader pathname={pathname} />
+
       {!isLandingPage ? (
         <header className="site-header">
           <div className="shell-container site-header__inner">
