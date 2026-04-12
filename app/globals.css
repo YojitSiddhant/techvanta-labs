@@ -12088,7 +12088,7 @@ html[data-theme="light"] .contact-page__hero-support-copy p {
 }
 
 /* Final mobile navigation guard */
-@media (max-width: 1024px), ((hover: none) and (pointer: coarse) and (max-width: 1400px)) {
+@media (max-width: 640px) {
   .site-header {
     z-index: 100;
   }
