@@ -12096,7 +12096,7 @@ html[data-theme="light"] .contact-page__hero-support-copy p {
   .site-header__inner {
     position: relative;
     min-height: 4.6rem;
-    padding: 0.75rem 4rem 0.75rem 0;
+    padding: 0.75rem 4.75rem 0.75rem 0.75rem;
   }
 
   .site-header__topbar {
@@ -12109,6 +12109,7 @@ html[data-theme="light"] .contact-page__hero-support-copy p {
   .brand-mark {
     min-width: 0;
     width: 100%;
+    justify-content: center;
   }
 
   .brand-mark__name {
@@ -12120,12 +12121,13 @@ html[data-theme="light"] .contact-page__hero-support-copy p {
     white-space: nowrap;
     font-size: clamp(0.9rem, 4vw, 1rem);
     letter-spacing: 0.12em;
+    text-align: center;
   }
 
   .site-nav__toggle {
     position: absolute;
     top: 50%;
-    right: 0;
+    right: 0.75rem;
     transform: translateY(-50%);
     width: 3rem;
     height: 3rem;
@@ -12207,11 +12209,12 @@ html[data-theme="light"] .contact-page__hero-support-copy p {
   }
 
   .site-header__inner {
-    padding-right: 3.45rem;
+    padding-right: 4.1rem;
+    padding-left: 0.75rem;
   }
 
   .brand-mark__name {
-    max-width: calc(100vw - 5.75rem);
+    max-width: calc(100vw - 6.75rem);
     font-size: 0.9rem;
     letter-spacing: 0.09em;
   }
@@ -12221,6 +12224,7 @@ html[data-theme="light"] .contact-page__hero-support-copy p {
     height: 2.75rem;
     min-width: 2.75rem;
     flex-basis: 2.75rem;
+    right: 0.65rem;
   }
 
   html[data-theme] .site-nav.is-open {
