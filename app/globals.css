@@ -12107,15 +12107,20 @@ html[data-theme="light"] .contact-page__hero-support-copy p {
   }
 
   .brand-mark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     min-width: 0;
-    width: 100%;
+    width: auto;
+    max-width: calc(100% - 7rem);
     justify-content: center;
   }
 
   .brand-mark__name {
     display: block;
     width: auto;
-    max-width: calc(100vw - 6rem);
+    max-width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -12214,7 +12219,6 @@ html[data-theme="light"] .contact-page__hero-support-copy p {
   }
 
   .brand-mark__name {
-    max-width: calc(100vw - 6.75rem);
     font-size: 0.9rem;
     letter-spacing: 0.09em;
   }
