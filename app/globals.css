@@ -12119,7 +12119,9 @@ html[data-theme="light"] .contact-page__hero-support-copy p {
   }
 
   .brand-mark__name {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: auto;
     max-width: 100%;
     overflow: hidden;
@@ -12128,6 +12130,33 @@ html[data-theme="light"] .contact-page__hero-support-copy p {
     font-size: clamp(0.9rem, 4vw, 1rem);
     letter-spacing: 0.12em;
     text-align: center;
+  }
+
+  .brand-mark__typing {
+    white-space: normal;
+    line-height: 0;
+    font-size: 0;
+  }
+
+  .brand-mark__typing::before,
+  .brand-mark__typing::after {
+    display: block;
+    color: #ffffff;
+    font-size: clamp(0.82rem, 3.4vw, 0.95rem);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: 0.18em;
+    text-align: center;
+    -webkit-text-fill-color: #ffffff;
+  }
+
+  .brand-mark__typing::before {
+    content: "TECHVANTA";
+  }
+
+  .brand-mark__typing::after {
+    content: "LABS";
+    margin-top: 0.18rem;
   }
 
   .site-nav__toggle {
@@ -12229,6 +12258,12 @@ html[data-theme="light"] .contact-page__hero-support-copy p {
     letter-spacing: 0.09em;
   }
 
+  .brand-mark__typing::before,
+  .brand-mark__typing::after {
+    font-size: 0.82rem;
+    letter-spacing: 0.16em;
+  }
+
   .site-nav__toggle {
     width: 2.75rem;
     height: 2.75rem;
@@ -12248,5 +12283,11 @@ html[data-theme="light"] .contact-page__hero-support-copy p {
   .brand-mark__name {
     font-size: 0.82rem;
     letter-spacing: 0.04em;
+  }
+
+  .brand-mark__typing::before,
+  .brand-mark__typing::after {
+    font-size: 0.76rem;
+    letter-spacing: 0.14em;
   }
 }
